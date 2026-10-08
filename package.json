@@ -1,0 +1,17 @@
+{
+  "name": "sistema-interno-empresas",
+  "version": "2.3.0",
+  "description": "Projeto Sistema Interno para Empresas — VOLTS COG",
+  "author": "Lucas Cerbaro Aguiar",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "verificar": "node scripts/verificar-repositorio.mjs"
+  }
+}

@@ -1,0 +1,53 @@
+# Dependências e caches
+node_modules/
+.npm/
+.cache/
+.vite/
+.next/
+.wrangler/
+coverage/
+*.tsbuildinfo
+
+# Dados e arquivos privados de qualquer instalação
+data/
+backups/
+logs/
+runtime/
+uploads/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.bak
+*.log
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+!.env.exemplo
+rede.json
+servidor.json
+ABRIR.url
+PRIMEIRO-ACESSO.txt
+credentials*.json
+secrets*.json
+
+# Exportações e pacotes
+*.zip
+*.7z
+*.rar
+*.csv
+*.xlsx
+*.pdf
+
+# Configuração pessoal e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.swp

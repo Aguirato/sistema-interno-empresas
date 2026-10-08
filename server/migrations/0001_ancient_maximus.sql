@@ -1,0 +1,1 @@
+ALTER TABLE `vehicles` ADD `mutation_token` text DEFAULT '' NOT NULL;

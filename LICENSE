@@ -1,42 +1,84 @@
-AVISO DE DIREITOS — APRESENTAÇÃO PÚBLICA DE PORTFÓLIO
+LICENÇA PROPRIETÁRIA — USO RESTRITO
 
-VOLTS COG — Projeto Sistema Interno para Empresas
+Projeto Sistema Interno para Empresas — VOLTS COG
 Copyright (c) 2026 Lucas Cerbaro Aguiar.
-Todos os direitos reservados sobre os elementos próprios desta apresentação.
+Todos os direitos reservados sobre os elementos próprios do projeto.
 
-1. ESCOPO
-Este repositório reúne uma apresentação do projeto, documentação descritiva
-e imagens de demonstração. O código-fonte do sistema e seus dados
-operacionais não fazem parte desta publicação pública.
+1. OBJETO E TITULARIDADE
+Esta licença se aplica ao código-fonte, aos executáveis, à documentação,
+às imagens de apresentação e aos demais elementos
+originais deste projeto sobre os quais Lucas Cerbaro Aguiar ("Titular")
+detenha direitos. Não transfere propriedade intelectual nem constitui
+licença de código aberto. Direitos de terceiros e disposições legais
+obrigatórias permanecem preservados.
 
-2. VISUALIZAÇÃO E DIVULGAÇÃO DO LINK
-É permitido visualizar esta apresentação e compartilhar o link de seu
-repositório para referência ao projeto e a seu autor. Permanecem aplicáveis
-os direitos de visualização e fork dentro do GitHub previstos nos termos
-da plataforma, assim como as permissões legais obrigatórias.
+2. AUTORIZAÇÃO LIMITADA
+O Titular pode utilizar, manter, modificar e fazer cópias de segurança de
+seus próprios elementos do projeto. Outras pessoas ou organizações somente
+podem executar, reutilizar, copiar ou modificar esses elementos mediante
+autorização prévia e expressa, por escrito, do Titular, nos limites da
+finalidade, dos usuários e do prazo ali definidos, ressalvadas as permissões
+legais, as de terceiros e as da plataforma descritas abaixo. A mera posse dos arquivos,
+o acesso a um repositório ou a obtenção de uma cópia não concede autorização
+de exploração ou redistribuição.
 
-3. DIREITOS RESERVADOS
-Fora dessas permissões, a reprodução, republicação, adaptação, distribuição
-ou exploração comercial dos elementos próprios desta apresentação exige
-autorização prévia e expressa, por escrito, de Lucas Cerbaro Aguiar.
-Não é permitido remover avisos de autoria ou apresentar tais elementos
-como criação de outra pessoa. Esta publicação não concede licença de uso,
-distribuição ou comercialização do sistema completo.
+3. RESTRIÇÕES
+Salvo autorização específica por escrito, permissão legal obrigatória ou
+permissão aplicável das cláusulas 5 e 6,
+é vedado a terceiros:
+a) distribuir, republicar, disponibilizar publicamente ou compartilhar o
+   código, os executáveis ou cópias do projeto, no todo ou em parte;
+b) vender, alugar, sublicenciar, ceder ou oferecer o projeto como serviço
+   a pessoas ou organizações não autorizadas;
+c) reutilizar os elementos próprios do projeto em outros produtos ou criar
+   e distribuir versões derivadas;
+d) remover avisos de autoria, titularidade ou licença, ou apresentar os
+   elementos próprios do projeto como criação de outra pessoa.
 
-4. TERCEIROS
-Marcas, bibliotecas, ícones e outros materiais de terceiros conservam
-seus próprios direitos e licenças. Este aviso não atribui sua autoria
-ao titular da apresentação nem restringe permissões concedidas pelos
-respectivos titulares. Consulte CREDITOS.md.
+4. ACESSO INTERNO E CONFIDENCIALIDADE
+Quem receber acesso autorizado deve limitar o acesso às pessoas abrangidas
+pela autorização e preservar a confidencialidade do código e de eventuais
+informações internas recebidas. Cópias internas de segurança e manutenção
+devem respeitar a autorização e conservar os avisos de titularidade.
+Essas obrigações não abrangem informações legitimamente públicas nem
+impedem o cumprimento de exigência legal aplicável.
 
-5. DADOS DE DEMONSTRAÇÃO
-As imagens utilizam dados fictícios. Elas não autorizam acesso à instalação
-da empresa, a credenciais ou a registros operacionais.
+5. COMPONENTES, MARCAS E DADOS DE TERCEIROS
+Bibliotecas, componentes, fontes, ícones e outros materiais de terceiros
+continuam sujeitos às respectivas licenças e direitos. Esta licença não
+restringe os direitos concedidos por essas licenças e não atribui ao Titular
+a autoria desses materiais. Consulte docs/THIRD-PARTY-NOTICES.md e os avisos
+incluídos em vendor e docs/licenses.
+O uso de nomes, marcas ou dados de empresas não transfere sua titularidade.
+Esta licença de software não autoriza divulgação de dados operacionais,
+pessoais, credenciais ou informações confidenciais.
 
-6. LIMITES E LEGISLAÇÃO
-Direitos e exceções legais obrigatórios prevalecem. Este aviso não
-constitui registro oficial de autoria nem transfere direitos de terceiros.
-Aplicam-se as leis brasileiras, quando cabíveis, inclusive as Leis
-nº 9.609/1998 e nº 9.610/1998.
+6. HOSPEDAGEM DO CÓDIGO
+O código e a apresentação estão publicados em repositório público no GitHub.
+A visualização e a criação de forks nos limites dos Termos de Serviço do
+GitHub são permitidas. Compartilhar o link do repositório também é permitido.
+Permanecem aplicáveis as permissões necessárias ao funcionamento da
+plataforma, nos termos aceitos pelo responsável pelo repositório. Essas
+permissões não constituem autorização geral para executar, redistribuir,
+reutilizar ou comercializar os elementos próprios do projeto fora de seu
+escopo. Os dados operacionais e as credenciais da empresa não fazem parte
+da publicação pública.
+Esta licença não elimina permissões que decorram de publicação voluntária
+em uma plataforma nem recolhe cópias já obtidas legitimamente.
 
-Versão de 8 de outubro de 2026.
+7. GARANTIAS E RESPONSABILIDADES
+Salvo contrato escrito ou obrigação legal em contrário, o software é
+fornecido no estado em que se encontra, sem promessa de adequação a uma
+finalidade específica, disponibilidade contínua ou ausência de defeitos.
+Garantias, suporte e responsabilidades podem ser definidos em contrato
+próprio. Nenhuma cláusula afasta direitos ou responsabilidades inderrogáveis
+previstos na legislação aplicável.
+
+8. LEGISLAÇÃO E AUTORIZAÇÕES
+Aplicam-se as leis brasileiras, incluindo a Lei nº 9.609/1998 e, quando
+cabível, a Lei nº 9.610/1998. Exceções legais obrigatórias prevalecem.
+Permissões adicionais dependem de manifestação expressa do Titular e não
+alteram os direitos de terceiros. A invalidade de uma disposição não
+prejudica as demais disposições válidas.
+
+Versão deste texto: 8 de outubro de 2026.

@@ -1,0 +1,2443 @@
+{
+  "version": "2.3.0",
+  "publication": "Código público para portfólio",
+  "created": "2026-10-08",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "size": 149,
+      "sha256": "c07a0983e8da06fac028791182a44809a54be53783c4f2d58685e73ccdbcf453",
+      "gitSha": "672c2da71a3437af66a4ec4876412c9d7dbfae4f"
+    },
+    {
+      "path": ".gitattributes",
+      "size": 264,
+      "sha256": "e9b7c687269f3b1902189906667b6c9885aa2d2f0b882cf3e4da8b5e611af2ab",
+      "gitSha": "60ca3651a27b5325e51e772fafc359af806c8eb1"
+    },
+    {
+      "path": ".gitignore",
+      "size": 560,
+      "sha256": "309971e4881b3bff55b5f8c3eb093a20e105556af0c0018f879a357f92118fcd",
+      "gitSha": "326b643f05f2d9f8101932397a6e55cff734b6d5"
+    },
+    {
+      "path": "assets/chaves.png",
+      "size": 141596,
+      "sha256": "42b6e21118be2e0d65ca647484c2bd8f7cf5e39720bc1fafdb4527d7fd7dd5e6",
+      "gitSha": "1fd686db8f92695ec92ae820ea2fa0ac957f939c"
+    },
+    {
+      "path": "assets/frota.png",
+      "size": 140893,
+      "sha256": "8047a7c0730384d35e16ee2d88a9e65825a7a1276eb9ed6605c8820363d039a0",
+      "gitSha": "1ea1c9d50b4f98c5ab85d9eeade87bdba9294d7b"
+    },
+    {
+      "path": "assets/graficos.png",
+      "size": 205943,
+      "sha256": "faf3aec30d5fa27eab0db3eb84551827160824c6b017e494c99e34d67466b868",
+      "gitSha": "1cb1e6808e0f12c5cebfa0dda66e5ded53723e5c"
+    },
+    {
+      "path": "assets/visao-geral.png",
+      "size": 118464,
+      "sha256": "5d32cc7948c373632f1b02f4519d5bd8f1ca0240d3bb65be9e8c1557cf3c9c15",
+      "gitSha": "1da54b7bb13180ea6d3f925c1d9ffcc028200885"
+    },
+    {
+      "path": "AUTHORS.md",
+      "size": 665,
+      "sha256": "092c408ccd1f44fab0fab62d7e412571be19626db8352d5db01e987d5a509b52",
+      "gitSha": "dac60271ab0a9f189cf6204bca58e127907084db"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 1656,
+      "sha256": "12ad3cff6d3d72d3f979ea45217a827cc656b22a454d81911e5701374dca3af1",
+      "gitSha": "c235287781848809550d28e656027b5844468cae"
+    },
+    {
+      "path": "CREDITOS.md",
+      "size": 1200,
+      "sha256": "c483a2ca58ff6b6d59d99c48640e574ae55c9ff9777d4c85125a6046f2b3f2ee",
+      "gitSha": "3fe92ca9ab8c6cb5c54f289ea73c16ae4282e33a"
+    },
+    {
+      "path": "docs/BACKUP-E-TRANSFERENCIA.md",
+      "size": 10230,
+      "sha256": "76567643b72014faf1bdfc644ded5697190a9a3eb88b9c64305be3370610f69a",
+      "gitSha": "e5eea459bac6f406f4441ac440c2b4981efab992"
+    },
+    {
+      "path": "docs/INSTALACAO.md",
+      "size": 9814,
+      "sha256": "041cd7b1f040fe14a3933ebcde89f2fb75d6816c0bafe7653293592864aff438",
+      "gitSha": "169124a612ce0cf8e9f8d959f0f156a680a61797"
+    },
+    {
+      "path": "docs/LICENCIAMENTO.md",
+      "size": 2611,
+      "sha256": "3f757e79f570076aad4a7b859b3a39a188d794877c22c4557e48a97305e7324b",
+      "gitSha": "1bac55047221974a912f49f9bbc8b2a0fca73bf3"
+    },
+    {
+      "path": "docs/licenses/bundle-packages.json",
+      "size": 1989,
+      "sha256": "c726d547a1f3cda12fb8a257fa9d773388da936ffb82340e0f71581d641c2fb7",
+      "gitSha": "0912ab449e6375efbf3663a942d82e6f0b95ca10"
+    },
+    {
+      "path": "docs/licenses/INVENTARIO.md",
+      "size": 56488,
+      "sha256": "eabc93e3fa0f5d86fbc082f2e84aac44fffc2974c1c218e6401111f3b2f355b1",
+      "gitSha": "39279a4c9e8a3235df6cb219c0f7f6bf8bd7f792"
+    },
+    {
+      "path": "docs/licenses/inventory.json",
+      "size": 400728,
+      "sha256": "48999fe6bd804ab7c34c3bd1eeeca5ca842fd9de781e68f5171a4304f1450a67",
+      "gitSha": "94fb036a60e8a19e6e9077245faa4c3255a0b62c"
+    },
+    {
+      "path": "docs/licenses/npm/@floating-ui__core/1.8.0/LICENSE",
+      "size": 1089,
+      "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce",
+      "gitSha": "639cdc6c98cad0a67de011da403716f83550897f"
+    },
+    {
+      "path": "docs/licenses/npm/@floating-ui__dom/1.8.0/LICENSE",
+      "size": 1089,
+      "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce",
+      "gitSha": "639cdc6c98cad0a67de011da403716f83550897f"
+    },
+    {
+      "path": "docs/licenses/npm/@floating-ui__react-dom/2.1.9/LICENSE",
+      "size": 1089,
+      "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce",
+      "gitSha": "639cdc6c98cad0a67de011da403716f83550897f"
+    },
+    {
+      "path": "docs/licenses/npm/@floating-ui__utils/0.2.12/LICENSE",
+      "size": 1089,
+      "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce",
+      "gitSha": "639cdc6c98cad0a67de011da403716f83550897f"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__number/1.1.3/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__primitive/1.1.7/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-alert-dialog/1.1.23/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-checkbox/1.3.11/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-collection/1.1.15/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-context/1.2.2/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-dialog/1.1.23/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-direction/1.1.4/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-dismissable-layer/1.1.19/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-focus-guards/1.1.6/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-focus-scope/1.1.16/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-id/1.1.4/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-popper/1.3.7/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-portal/1.1.17/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-presence/1.1.10/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-primitive/2.1.10/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-roving-focus/1.1.19/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-select/2.3.7/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-tabs/1.1.21/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-use-callback-ref/1.1.4/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-use-controllable-state/1.2.6/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-use-effect-event/0.0.5/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-use-is-hydrated/0.1.3/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-use-layout-effect/1.1.4/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-use-previous/1.1.4/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-use-size/1.1.4/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@radix-ui__react-visually-hidden/1.2.11/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/@reduxjs__toolkit/2.12.0/LICENSE",
+      "size": 1069,
+      "sha256": "49784961ec6c4941437b7a2c54d8977d0528076a9e7c73dd40f7d0942b8f106d",
+      "gitSha": "1daa252487ffa02378254a6446a12b1507913baa"
+    },
+    {
+      "path": "docs/licenses/npm/aria-hidden/1.2.6/LICENSE",
+      "size": 1071,
+      "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+      "gitSha": "a194c884de0a9fac7ef89094e4800282dda23f17"
+    },
+    {
+      "path": "docs/licenses/npm/class-variance-authority/0.7.1/LICENSE",
+      "size": 10753,
+      "sha256": "0ccbf956cffc8dcf515809433cb5242ee67c94513d46e48c261d68d0880de406",
+      "gitSha": "380ac719506bc4a8e2dfb75349c8d4b448d4b5b1"
+    },
+    {
+      "path": "docs/licenses/npm/clsx/2.1.1/license",
+      "size": 1104,
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97",
+      "gitSha": "fa6089faba3cf381229744c9f21ed3ae9ed5014a"
+    },
+    {
+      "path": "docs/licenses/npm/d3-array/3.2.4/LICENSE",
+      "size": 731,
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
+      "gitSha": "3594fffaf63c7a0dddc35ff82b781e224230bea1"
+    },
+    {
+      "path": "docs/licenses/npm/d3-color/3.1.0/LICENSE",
+      "size": 731,
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+      "gitSha": "fbe44bdc9ad516c2d0e9a52d686cd97b592ab9b0"
+    },
+    {
+      "path": "docs/licenses/npm/d3-format/3.1.2/LICENSE",
+      "size": 731,
+      "sha256": "2a6d2d5f32ba0b755ddbc1c833f766e30cdbe6ebe9a6d4e3e24427721f0b63d3",
+      "gitSha": "a8918c41d974616d6c8d3e31d76af1923028083a"
+    },
+    {
+      "path": "docs/licenses/npm/d3-interpolate/3.0.1/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/d3-path/3.1.0/LICENSE",
+      "size": 731,
+      "sha256": "a09b0d6d76e768fca2085fad05743ee81ddd11946bcda160a3cf5e1081a479aa",
+      "gitSha": "ed25746bbfc87b6d39e0479e6f9cba8f8eaa1d34"
+    },
+    {
+      "path": "docs/licenses/npm/d3-scale/4.0.2/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/d3-shape/3.2.0/LICENSE",
+      "size": 731,
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+      "gitSha": "fbe44bdc9ad516c2d0e9a52d686cd97b592ab9b0"
+    },
+    {
+      "path": "docs/licenses/npm/d3-time-format/4.1.0/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/d3-time/3.1.0/LICENSE",
+      "size": 731,
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+      "gitSha": "fbe44bdc9ad516c2d0e9a52d686cd97b592ab9b0"
+    },
+    {
+      "path": "docs/licenses/npm/decimal.js-light/2.5.1/LICENCE.md",
+      "size": 1110,
+      "sha256": "fc0397fbd5c128bec7edef4e8d3f45e15db5fd043cdd0a2edfc4f14d47fbc3e4",
+      "gitSha": "538bf233661f4433cced8c30750970b7ce292ebc"
+    },
+    {
+      "path": "docs/licenses/npm/es-toolkit/1.50.0/LICENSE",
+      "size": 1077,
+      "sha256": "51f3674294d988d89dbebd31273baaeb3c697a15482d9699b14d1fded2e132a7",
+      "gitSha": "69dc6a701d90767cfc779cc7c856268d4d3c593e"
+    },
+    {
+      "path": "docs/licenses/npm/eventemitter3/5.0.4/LICENSE",
+      "size": 1082,
+      "sha256": "3aecc12b1cb28832b5f65ab64291de96568c3f236a74d646281b4491f7bcadbf",
+      "gitSha": "abcbd54e5eefdac272de763e774ca75825ca55ce"
+    },
+    {
+      "path": "docs/licenses/npm/get-nonce/1.0.1/LICENSE",
+      "size": 1071,
+      "sha256": "acf3b087b348d2f2e731b9d4131af185aad694c1204ce14a46909483fd42da05",
+      "gitSha": "9455bf5c2e38efce322460afa46f7b73e25a425a"
+    },
+    {
+      "path": "docs/licenses/npm/immer/10.2.0/LICENSE",
+      "size": 1074,
+      "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b",
+      "gitSha": "c01411588adb07c56b6bb0cbf50aa112589df1eb"
+    },
+    {
+      "path": "docs/licenses/npm/immer/11.1.16/LICENSE",
+      "size": 1074,
+      "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b",
+      "gitSha": "c01411588adb07c56b6bb0cbf50aa112589df1eb"
+    },
+    {
+      "path": "docs/licenses/npm/internmap/2.0.3/LICENSE",
+      "size": 726,
+      "sha256": "9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f",
+      "gitSha": "6fca7113f8ba5615c3732af9f030c2a933f61aee"
+    },
+    {
+      "path": "docs/licenses/npm/lucide-react/1.31.0/dist/esm/icons/copyright.mjs",
+      "size": 528,
+      "sha256": "da57e12b1eda4cc3f00e4e585740434d4b34b171931ce5381f27d391fd129ff7",
+      "gitSha": "64dde2daa210ec8f68fdafdaa798f01e479feddd"
+    },
+    {
+      "path": "docs/licenses/npm/lucide-react/1.31.0/dist/esm/icons/copyright.mjs.map",
+      "size": 2202,
+      "sha256": "276fbb649bda6b64528dedc0db040efc6ec73a3a1881a737f850ffdcef114501",
+      "gitSha": "e43ff166dd0843de99bbd860f1296424e84350a3"
+    },
+    {
+      "path": "docs/licenses/npm/lucide-react/1.31.0/LICENSE",
+      "size": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "gitSha": "718bb3f0e44153809972abed31839375804bf652"
+    },
+    {
+      "path": "docs/licenses/npm/next-themes/0.4.6/license.md",
+      "size": 1069,
+      "sha256": "b5acfd21b3b61508365224c40ec1b03ec71091248baaf989d4be916551e7d532",
+      "gitSha": "76228ccc3abb7a0f1b423f9d3f6815fb7019d3f5"
+    },
+    {
+      "path": "docs/licenses/npm/radix-ui/1.6.7/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/npm/react-dom/19.2.6/LICENSE",
+      "size": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "gitSha": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+    },
+    {
+      "path": "docs/licenses/npm/react-is/16.13.1/LICENSE",
+      "size": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "gitSha": "b96dcb0480a0b0be0727976e5202a1e7b23edc3f"
+    },
+    {
+      "path": "docs/licenses/npm/react-redux/9.3.0/LICENSE.md",
+      "size": 1086,
+      "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3",
+      "gitSha": "55bc8dfbe90cb54a2d6611e97007e5ee026486da"
+    },
+    {
+      "path": "docs/licenses/npm/react-remove-scroll/2.7.2/LICENSE",
+      "size": 1071,
+      "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+      "gitSha": "a194c884de0a9fac7ef89094e4800282dda23f17"
+    },
+    {
+      "path": "docs/licenses/npm/react-style-singleton/2.2.3/LICENSE",
+      "size": 1071,
+      "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+      "gitSha": "a194c884de0a9fac7ef89094e4800282dda23f17"
+    },
+    {
+      "path": "docs/licenses/npm/react/19.2.6/LICENSE",
+      "size": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "gitSha": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+    },
+    {
+      "path": "docs/licenses/npm/recharts/3.8.0/LICENSE",
+      "size": 1084,
+      "sha256": "2d3aa48a8d1d3b93093680e8e68d3a64cfb590c3ade377ffcaefc69dac7c2ce5",
+      "gitSha": "88a9b03614ff76bddccae2eb444b31be95ab4503"
+    },
+    {
+      "path": "docs/licenses/npm/redux-thunk/3.1.0/LICENSE.md",
+      "size": 1107,
+      "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe",
+      "gitSha": "c108bf37123d79b9a1d8a538c42125b206731b73"
+    },
+    {
+      "path": "docs/licenses/npm/redux/5.0.1/LICENSE.md",
+      "size": 1086,
+      "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3",
+      "gitSha": "55bc8dfbe90cb54a2d6611e97007e5ee026486da"
+    },
+    {
+      "path": "docs/licenses/npm/scheduler/0.27.0/LICENSE",
+      "size": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "gitSha": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+    },
+    {
+      "path": "docs/licenses/npm/sonner/2.0.8/LICENSE.md",
+      "size": 1070,
+      "sha256": "da9201378c36ffd81f51ad0b305f3f0981e90bc558789210ad65d1161eec3b7d",
+      "gitSha": "a8388380294eb819b2895279054fde95e12a6e3c"
+    },
+    {
+      "path": "docs/licenses/npm/tailwind-merge/3.6.0/LICENSE.md",
+      "size": 1070,
+      "sha256": "d4c70c7ce38cea8778f0aed3fc0bef0a9dbd27f13bd8b6773cbd6d37941971e5",
+      "gitSha": "0d2b96a2fd66a32613e70681efa4a5d8474f5946"
+    },
+    {
+      "path": "docs/licenses/npm/tailwindcss/4.2.1/LICENSE",
+      "size": 1071,
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "gitSha": "d6a82290738a9f78946cbcb4594535d6984086dd"
+    },
+    {
+      "path": "docs/licenses/npm/tslib/2.8.1/LICENSE.txt",
+      "size": 655,
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+      "gitSha": "bfe6430cb0d83f34f5ed859d118dd3dc8ec1f7e8"
+    },
+    {
+      "path": "docs/licenses/npm/tw-animate-css/1.4.0/LICENSE",
+      "size": 1068,
+      "sha256": "039184dfa0a822397b3f45a435b5b1e538721587fbade96b9fa80f86cb354109",
+      "gitSha": "70d61e82021e85cea66689e1c6449410390fbe74"
+    },
+    {
+      "path": "docs/licenses/npm/use-callback-ref/1.3.3/LICENSE",
+      "size": 1071,
+      "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+      "gitSha": "a194c884de0a9fac7ef89094e4800282dda23f17"
+    },
+    {
+      "path": "docs/licenses/npm/use-sidecar/1.1.3/LICENSE",
+      "size": 1071,
+      "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+      "gitSha": "a194c884de0a9fac7ef89094e4800282dda23f17"
+    },
+    {
+      "path": "docs/licenses/npm/use-sync-external-store/1.6.0/LICENSE",
+      "size": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "gitSha": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-array/LICENSE",
+      "size": 731,
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+      "gitSha": "fbe44bdc9ad516c2d0e9a52d686cd97b592ab9b0"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-color/LICENSE",
+      "size": 731,
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+      "gitSha": "fbe44bdc9ad516c2d0e9a52d686cd97b592ab9b0"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-ease/LICENSE",
+      "size": 1504,
+      "sha256": "b989d9085148d21ff64a75e14462aefa06b2589a55553b07b1460c70081c7d08",
+      "gitSha": "83cc9970536d2b2bd0fa53ae1b0a94f378cf8fb4"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-format/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-interpolate/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-path/LICENSE",
+      "size": 731,
+      "sha256": "0ab21426fad1e8b819ea8ab4c7faf5a24d4fca9c01572fe722490d600bba0d22",
+      "gitSha": "76cb4be4f765c731cf67da89ed124f1722312fb7"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-scale/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-shape/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-time-format/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-time/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-timer/LICENSE",
+      "size": 731,
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+      "gitSha": "b0145150fd35f3e325d7ddec6ed3be68c457975e"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/d3-voronoi/LICENSE",
+      "size": 2656,
+      "sha256": "ad6cf57648385d6c40a29f73c55e42922dd793823df5ea265ccd834873bf09b9",
+      "gitSha": "9e0af43e2d23c193c2a3e490f8acad602f0873aa"
+    },
+    {
+      "path": "docs/licenses/npm/victory-vendor/37.3.6/lib-vendor/internmap/LICENSE",
+      "size": 726,
+      "sha256": "9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f",
+      "gitSha": "6fca7113f8ba5615c3732af9f030c2a933f61aee"
+    },
+    {
+      "path": "docs/licenses/upstream/radix-ui-primitives/LICENSE",
+      "size": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "gitSha": "a18858fb7b014098cba85703e66609be66a26ef5"
+    },
+    {
+      "path": "docs/licenses/upstream/react-remove-scroll-bar/LICENSE",
+      "size": 1093,
+      "sha256": "a79aae0c0f21990d9d963bb3c5a79cdcea9a46f8523ba55c58d7fe776b6ebc84",
+      "gitSha": "7c08c3990396ecefd90f99ff5d9a34f26f5b5616"
+    },
+    {
+      "path": "docs/licenses/upstream/victory/LICENSE.txt",
+      "size": 1626,
+      "sha256": "2fb8d6f8f25a8446322a0c950da7965ef8986ae70aa216832e5ea628dbf37645",
+      "gitSha": "cd1ce13f3900fe52e293cbbbd910ecef0ef4673c"
+    },
+    {
+      "path": "docs/licenses/vendored/nodemailer/LICENSE",
+      "size": 935,
+      "sha256": "4f814dcacd2da618d62829ea1f6238701cf421f18a6b36c91c5d8212245e2c78",
+      "gitSha": "fdfc9676bf9f4363b1292847d61f94a17a47618e"
+    },
+    {
+      "path": "docs/licenses/vendored/shadcn-ui/LICENSE.md",
+      "size": 1063,
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+      "gitSha": "fad4d887a681dd49233e5ed01ee2c7a1513089a0"
+    },
+    {
+      "path": "docs/PUBLICAR-NO-GITHUB.md",
+      "size": 5173,
+      "sha256": "31728600900429797f597e6072496d0888482db418242f498d4abf3f6f53583b",
+      "gitSha": "7d8ac17f11ebec71506cbed756c54e81943ade8f"
+    },
+    {
+      "path": "docs/THIRD-PARTY-NOTICES.md",
+      "size": 6742,
+      "sha256": "499be689dfd4dfdabffefa934bdbd26c457a0d23ff3afb78004b1dbc9f406434",
+      "gitSha": "0e6f8ae6fbb6e73a0a28e438a645f3ce4e9a9daf"
+    },
+    {
+      "path": "frontend/.npmrc",
+      "size": 45,
+      "sha256": "a3909ac0447c469fda12c57374993be70f47ce73e49fd3124678c7c047f2214d",
+      "gitSha": "9f274d6425b9792ae0a70cb0b96a29fd98ec6ed6"
+    },
+    {
+      "path": "frontend/app/globals.css",
+      "size": 14314,
+      "sha256": "69d15575ad65d795938e4ad6fee39260848cd022049fd236a54660a3d4aabf4a",
+      "gitSha": "fc377f1619fb38f53413d837281ac5505a702d7a"
+    },
+    {
+      "path": "frontend/app/page.tsx",
+      "size": 24360,
+      "sha256": "396fcdb257ca20d034581c8b6088242acea52451b956974398d1869e9dbf7a27",
+      "gitSha": "61a67494cd2a243ed88e98f39bc5fbb935209426"
+    },
+    {
+      "path": "frontend/components.json",
+      "size": 420,
+      "sha256": "31f4ca67a4a62572571003d3d5aac85ee6fbfca67a192924bac6b168d95e98fd",
+      "gitSha": "c8f5bb16f79ed774f67415a8dc2b4a38243e3e90"
+    },
+    {
+      "path": "frontend/components/ui/accordion.tsx",
+      "size": 2048,
+      "sha256": "a4f153089ba886dfcf73fac26b5c01ca933fa12fbe88df6fb723912bfffdfbb0",
+      "gitSha": "91e3a250ce6ee0797b0258454d774800650adcc8"
+    },
+    {
+      "path": "frontend/components/ui/alert-dialog.tsx",
+      "size": 5439,
+      "sha256": "9a8d950f2b9b4352d5ebb762fb44d5c28c2d353aa29712071973656a8736e311",
+      "gitSha": "dad327341382f200b84d5f833eb1b7a74b0e7469"
+    },
+    {
+      "path": "frontend/components/ui/alert.tsx",
+      "size": 1614,
+      "sha256": "2cc59b5f7bda91c1670884b1bf46bfc8a2a6f226cef184f5762acc037188885b",
+      "gitSha": "f99164ed4b320790482f514342dab5e72f284aca"
+    },
+    {
+      "path": "frontend/components/ui/aspect-ratio.tsx",
+      "size": 274,
+      "sha256": "b1c157886236782cb92d8fbcd4749532aaf6d8aabefd6e157ca40358f902f407",
+      "gitSha": "57e38fa96f9c0cb767d7b8de0d6dbc171d1b921a"
+    },
+    {
+      "path": "frontend/components/ui/attachment.tsx",
+      "size": 6002,
+      "sha256": "ae8a25dd1a896d3964e3ef54d97e51221b418cde287dfd794428b89951c5c790",
+      "gitSha": "5bdd1ce7db5800eb55198cd0291a1e47dc67fb0d"
+    },
+    {
+      "path": "frontend/components/ui/avatar.tsx",
+      "size": 2916,
+      "sha256": "58a846bf1617b94b9681921db9b8461d0145f311424663d11678a06b6153cb34",
+      "gitSha": "ea658505703a577fe93341e5e1a0b478c27245f7"
+    },
+    {
+      "path": "frontend/components/ui/badge.tsx",
+      "size": 1776,
+      "sha256": "46a0de5224f6a5d5d63d45246534288518dce888f031064bff925bbc7fe6ad97",
+      "gitSha": "6eb2a057aae0e23a74368cc4daf9657210e9a740"
+    },
+    {
+      "path": "frontend/components/ui/breadcrumb.tsx",
+      "size": 2350,
+      "sha256": "d4c0831bba2212e778248f54a6ace6ef378df8bba4616d1abf27787a31eabae5",
+      "gitSha": "004bb63a4c92229e612b6126d79fb7b078aa7565"
+    },
+    {
+      "path": "frontend/components/ui/bubble.tsx",
+      "size": 4699,
+      "sha256": "870cc0c5cfc8a515053f7e41e706a6bd017a909b45f1305fd3b164a52cc4483b",
+      "gitSha": "792146e61d80ef595d032d5d09a3d572d50f1374"
+    },
+    {
+      "path": "frontend/components/ui/button-group.tsx",
+      "size": 2202,
+      "sha256": "784c89d8ee683e1bc972ae69e6ea8225a7f63abe22aa1b5fc3423ae8a2a399c0",
+      "gitSha": "cd550d7afca6562548afe3f595b352406f7f3951"
+    },
+    {
+      "path": "frontend/components/ui/button.tsx",
+      "size": 2392,
+      "sha256": "cc36af0f8b5019c33cc039fbf03bb952a513072b15b55b53c592b78af3e5f4c4",
+      "gitSha": "4d38506cee5430d95a59ec6a2a0cef2b79217e7a"
+    },
+    {
+      "path": "frontend/components/ui/calendar.tsx",
+      "size": 7832,
+      "sha256": "3855fbe0d3f8ad3a4b93071f98b76a9f6782d46ec8b05f5d2ddbee1e4e39bc84",
+      "gitSha": "5d31419b130a18c52320f5a21546a9236123b6bf"
+    },
+    {
+      "path": "frontend/components/ui/card.tsx",
+      "size": 1987,
+      "sha256": "c48dd3b96be90a7066f1aebf294f0af9d00ebcdc367d5d4aca55429ade570c1c",
+      "gitSha": "acf57dc5a534792273b8fb86227e92e001f3dc53"
+    },
+    {
+      "path": "frontend/components/ui/carousel.tsx",
+      "size": 5556,
+      "sha256": "b7ea0dda3903d972c186f739e23da61f547bc83b5a0bf13b16856577846d5fc3",
+      "gitSha": "0e05a77ea155fde6af5d9a4848b1d3953df6ea5a"
+    },
+    {
+      "path": "frontend/components/ui/chart.tsx",
+      "size": 10614,
+      "sha256": "45aa5ea4a386f4fb5b8869ff4bab3a08cf89255190ee322043baf84c3e950b6a",
+      "gitSha": "9813c584e125847d88e9e7e7f9edff7e9ba45a97"
+    },
+    {
+      "path": "frontend/components/ui/checkbox.tsx",
+      "size": 1214,
+      "sha256": "b23ab9d4deeedf2ac8f512c368361ede681aa383437ef48563a6f9b7dbe95f27",
+      "gitSha": "f5a7e433f3795b82a00c5c06a1fc6decf116a84a"
+    },
+    {
+      "path": "frontend/components/ui/collapsible.tsx",
+      "size": 795,
+      "sha256": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b",
+      "gitSha": "2f7a4e7fc64a8874373c1584646a63f28cd63c47"
+    },
+    {
+      "path": "frontend/components/ui/combobox.tsx",
+      "size": 9158,
+      "sha256": "2d68e78b2dc7e38a085f222dede60a80b4f8229a6e91732c484605e204d46735",
+      "gitSha": "2415bd801031a16bbcee8343058825feecfaea69"
+    },
+    {
+      "path": "frontend/components/ui/command.tsx",
+      "size": 4818,
+      "sha256": "361193df1e3d64a9e9b5048f045264782fcb387aab3f00f2b805fdcbf538b16a",
+      "gitSha": "8fe3ccb406be52d28961b0c0220e87ecd19596ca"
+    },
+    {
+      "path": "frontend/components/ui/context-menu.tsx",
+      "size": 8268,
+      "sha256": "2cf1fcf59df0649a3e2a126d1df2f639145f6b6bf5689ee54af1f40ab1245017",
+      "gitSha": "5aaca76552cf0468b1def03c9e2c42f1f0b60734"
+    },
+    {
+      "path": "frontend/components/ui/dialog.tsx",
+      "size": 4303,
+      "sha256": "dce39c6adc47d997bd2567f8b7a72f466b0134715105cd42f9194007b8ecdb14",
+      "gitSha": "84bdef4bb307087da1bfaf3cadf7be5dbda73f24"
+    },
+    {
+      "path": "frontend/components/ui/direction.tsx",
+      "size": 506,
+      "sha256": "84ae2ad658207f0e0f367978e5508cd8027cd00c29c41d3d13db21a708c3d1e6",
+      "gitSha": "22e165774bd595fbf41d0c45efef1cf996897983"
+    },
+    {
+      "path": "frontend/components/ui/drawer.tsx",
+      "size": 4255,
+      "sha256": "cb6eaf58eb0757ca91af284e5d925b89a42ad7eb19cb3f44c575a3487aa9350f",
+      "gitSha": "ad08671442203fe345093f364696bdf43528e0b7"
+    },
+    {
+      "path": "frontend/components/ui/dropdown-menu.tsx",
+      "size": 8418,
+      "sha256": "98f0dcdae38225b73734aceeb9213dd751fea2c72ea520df31003cd133deac8a",
+      "gitSha": "ae1fcf62f1e3b648554789b8fe02943d92bf00fc"
+    },
+    {
+      "path": "frontend/components/ui/empty.tsx",
+      "size": 2396,
+      "sha256": "ae95bdcf367a076ae02e7925f14522a148798f72d9651749c6d55497dba584c0",
+      "gitSha": "ce4b0095f6d19d2eae2e465060e9060b0c210856"
+    },
+    {
+      "path": "frontend/components/ui/field.tsx",
+      "size": 6159,
+      "sha256": "ba67d76f017ac059fc86cf8c344e0b2991c4322d3619e125498c19b87f6eefbd",
+      "gitSha": "ec849dae4d3dd06a973ba22e4b2248a25cf18148"
+    },
+    {
+      "path": "frontend/components/ui/form.tsx",
+      "size": 3757,
+      "sha256": "315b46bb75ab7d1c6061b5d750aa4bedf6e7a455e15e2d7f9182f053d5972b1e",
+      "gitSha": "f371fea1bc35380d28678c6cf53df8f65deb2776"
+    },
+    {
+      "path": "frontend/components/ui/hover-card.tsx",
+      "size": 1526,
+      "sha256": "f5d8df42c59370ec14d61bcc54f7d68e9bb7dfa0d6a872b2f7cffc2aafbf23b8",
+      "gitSha": "91e869c0d3091cbeddf5cb0266e82ddf56f829a6"
+    },
+    {
+      "path": "frontend/components/ui/input-group.tsx",
+      "size": 5065,
+      "sha256": "6afbd58fea4c438e6252dc4568bddc122e84ababead4ad5cee50ace01100c9a0",
+      "gitSha": "a7652d936fffd9c5bca4b88e6b9715bf559e667d"
+    },
+    {
+      "path": "frontend/components/ui/input-otp.tsx",
+      "size": 2254,
+      "sha256": "161946daa89f0eda2575b9271c0494e35807c4ffb55598a49f67160c17fec299",
+      "gitSha": "6a556afacd71996bf0e385ff2b04869fb2ee4523"
+    },
+    {
+      "path": "frontend/components/ui/input.tsx",
+      "size": 962,
+      "sha256": "8c4612a7c41319ac5049daa3b34b080f9784b6245c17780eb87c127e58e473db",
+      "gitSha": "f1124aea14eee062fc2f4c55dad5f0d9de0ccc1a"
+    },
+    {
+      "path": "frontend/components/ui/item.tsx",
+      "size": 4486,
+      "sha256": "6e2144d6d87142dbbe56d568810bf546318c8aa661447ebb0d76ebbf382cb45f",
+      "gitSha": "d5dbb1a9c2e70456e45a39887a4b7cc56d484a45"
+    },
+    {
+      "path": "frontend/components/ui/kbd.tsx",
+      "size": 862,
+      "sha256": "6088c3a5432338b1719c17e9b5d0e1fa74fd1f66060f248fc88909d33a82cd13",
+      "gitSha": "2459224fbc531f6306b73aaeb22e9022d9985332"
+    },
+    {
+      "path": "frontend/components/ui/label.tsx",
+      "size": 606,
+      "sha256": "a476e41f08b9de5bd447de66a33d8bc2ad18f2fa6b96c064778bab4b6f439f4c",
+      "gitSha": "1ac80f701ebfe9dc02d632c08cafade732e46625"
+    },
+    {
+      "path": "frontend/components/ui/marker.tsx",
+      "size": 1864,
+      "sha256": "3d798763f094b2bb5e7ade2d5cd1b9bab498bc8ca7fd4cfaf4e5835bdedc34a0",
+      "gitSha": "cfa76c6c014ab342befcbf7571eb932917406522"
+    },
+    {
+      "path": "frontend/components/ui/menubar.tsx",
+      "size": 8389,
+      "sha256": "9243af8afcea03703398ccd1c2a8c0a87ad6cbaf2bd272fb609f5b79fe46aebb",
+      "gitSha": "4af16a428377f81cbb3f66adfe518308e0b690d8"
+    },
+    {
+      "path": "frontend/components/ui/message-scroller.tsx",
+      "size": 3992,
+      "sha256": "bb7660a248e4e9589c3816c7c1c199ea1381a70d2c8476ae895b567a7a4d86cf",
+      "gitSha": "0b05011259c026a357380c3834bce0ead8565d22"
+    },
+    {
+      "path": "frontend/components/ui/message.tsx",
+      "size": 2232,
+      "sha256": "9d2952bf3b641081f09aa2739535e6bbd1be0a4946789752a2c20d8aaef43185",
+      "gitSha": "53437e8db2b0fad1da06a7499e54ddaf116295c2"
+    },
+    {
+      "path": "frontend/components/ui/native-select.tsx",
+      "size": 1995,
+      "sha256": "007516b111fca8c98a6c40c94ab91bb68cc5b52afce1ed1f5e510c3d86e7347c",
+      "gitSha": "3058398399ad6c029ad527052475b360b114715b"
+    },
+    {
+      "path": "frontend/components/ui/navigation-menu.tsx",
+      "size": 6658,
+      "sha256": "889d358a77de88e9cb6f39ea4895ea4c76eaf01d731b74e44f1c41e97a78a044",
+      "gitSha": "0a673f513c97fbeaae0872403b7582ab2ba7e3c3"
+    },
+    {
+      "path": "frontend/components/ui/pagination.tsx",
+      "size": 2717,
+      "sha256": "374ad135c3d4ff3ec080a0009cd9745cdd0e12faa89d2b0e86074f11e5127fd1",
+      "gitSha": "1dcfb0cc050c5f2bdd930522d627313d03d3690c"
+    },
+    {
+      "path": "frontend/components/ui/popover.tsx",
+      "size": 2357,
+      "sha256": "31c350309ff5d3034e6ecf1b0eda75ba8855bdbf987fc7ad6d71f0ef07c5a447",
+      "gitSha": "30058c4ec284ca9cad1ed1162d084ce3cd94e2b0"
+    },
+    {
+      "path": "frontend/components/ui/progress.tsx",
+      "size": 755,
+      "sha256": "c8c26e8f5f041c3cdf4915347dc1d9c022f9448f149990fadcaf303e952fa57d",
+      "gitSha": "b3ae25089ad549b7f13125e482f99b43dd895bd2"
+    },
+    {
+      "path": "frontend/components/ui/radio-group.tsx",
+      "size": 1460,
+      "sha256": "fe5ce39636d0818c2bf9c4eebddff893d1225fa2c81b5fa4bb8cbb39a8c913ce",
+      "gitSha": "fe514536ed771f7adef0a6b9e4d1aeadc2c95481"
+    },
+    {
+      "path": "frontend/components/ui/resizable.tsx",
+      "size": 1815,
+      "sha256": "bc63958467aa00557c551bb0d96a5ae4c965c1e1ba2380e595949d933b132f7c",
+      "gitSha": "a76832a10b4c5c2a137e25c16478567ba86daf0d"
+    },
+    {
+      "path": "frontend/components/ui/scroll-area.tsx",
+      "size": 1639,
+      "sha256": "8bd9d986b2844c9a87de825c6de4787b6739b36c3dc9a05ccf3eb107160e4043",
+      "gitSha": "73c4eb1cdcd4a699b150a9ddc3e87bfb90b63d09"
+    },
+    {
+      "path": "frontend/components/ui/select.tsx",
+      "size": 6353,
+      "sha256": "0b796a108a4eb5ba52d9ad938b7aea36dc56ae66c703a6d0a23dbc24f96daff3",
+      "gitSha": "c0dc7120b4f78008ae5efc6d1c8b7ec8205c35d5"
+    },
+    {
+      "path": "frontend/components/ui/separator.tsx",
+      "size": 694,
+      "sha256": "6da346505c8629a4668420d2a5ca48891383bbe0b0ceb14163537c671879427e",
+      "gitSha": "cd873e3631b571060f166897b7b62e033e87c18f"
+    },
+    {
+      "path": "frontend/components/ui/sheet.tsx",
+      "size": 4188,
+      "sha256": "63863cf2df8f8973e52b3459ac9bdbf81be1262dbc70eb53d5271ffb03488e16",
+      "gitSha": "cb53bb28b6850745c9519e8e7462e05f85a50c93"
+    },
+    {
+      "path": "frontend/components/ui/sidebar.tsx",
+      "size": 21526,
+      "sha256": "4a8d73e7730a2b1fcecfca31299ed26db65c2307b84197a59c6ec7c01c7ad28e",
+      "gitSha": "f5f6c5aefc88ffa2e999e284b299472215c05161"
+    },
+    {
+      "path": "frontend/components/ui/skeleton.tsx",
+      "size": 276,
+      "sha256": "ba48dd5be5a6a1378bd4e011028654b5bf419f1e7d20ee4b9f8330c1264e7239",
+      "gitSha": "3ec6be770b846170b8e7f8916e5f165e2d1730df"
+    },
+    {
+      "path": "frontend/components/ui/slider.tsx",
+      "size": 1991,
+      "sha256": "0e37484f4b416e79ac18c655cac961aefacf6e67085cfc2b320ea8af545635a3",
+      "gitSha": "46ebc4b4df1e9baf1f3997a4b6c08ef80c84a9c9"
+    },
+    {
+      "path": "frontend/components/ui/sonner.tsx",
+      "size": 1034,
+      "sha256": "13ccc9b0fe4248e622f83a1d3b2f0566b72b5e04162d7d0c8db8945ecc71b55f",
+      "gitSha": "9b20afe2e10fd9b94d1abc1ae732054b2fb9821c"
+    },
+    {
+      "path": "frontend/components/ui/spinner.tsx",
+      "size": 331,
+      "sha256": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9",
+      "gitSha": "a70e713c5b4ecb2af186efe3fadea51805f26ba5"
+    },
+    {
+      "path": "frontend/components/ui/switch.tsx",
+      "size": 1408,
+      "sha256": "386d4d4deb39f34126f9700fe9bf5393d238485dd94018bba9d154dda84c62ae",
+      "gitSha": "8baa844fdb17d668b3ce07cfbd6a7ef52e2eb5eb"
+    },
+    {
+      "path": "frontend/components/ui/table.tsx",
+      "size": 2478,
+      "sha256": "20e5a7f224959c6b75802995706a97e9da171f693d4b6b1b436388fcd9df96f3",
+      "gitSha": "7add5f1a22db954ac6cb3446f1bf8c8a9fc5c335"
+    },
+    {
+      "path": "frontend/components/ui/tabs.tsx",
+      "size": 3782,
+      "sha256": "865d0194331b9b2be36723fa79d3575dc83078b4cb941cafee87cb72fc2cff46",
+      "gitSha": "b463afd170637df477e36184aa27d2ad1bd3c3e0"
+    },
+    {
+      "path": "frontend/components/ui/textarea.tsx",
+      "size": 759,
+      "sha256": "253cdeb487c73beaaccdf47fc163e36e7d5b7ae6ddf09a4f64998a109a112979",
+      "gitSha": "e67d8fefe50c41dfa2deed9a5096d5be7691581a"
+    },
+    {
+      "path": "frontend/components/ui/toggle-group.tsx",
+      "size": 2308,
+      "sha256": "69f643e889e933f05c1439084480d8646f66a161c7d1cf0730ee926382ade35e",
+      "gitSha": "9894607b212ff7182bf2024f4262da03df0a8973"
+    },
+    {
+      "path": "frontend/components/ui/toggle.tsx",
+      "size": 1565,
+      "sha256": "ba4d0b0a2b2fee75dc36dfc19e32082e721024b919050c97fd5dc70faa924e16",
+      "gitSha": "5250c98ff7f11f531af38c227230a76b7d25bf19"
+    },
+    {
+      "path": "frontend/components/ui/tooltip.tsx",
+      "size": 1830,
+      "sha256": "a0784eb77831a799fad7991df4f1b666f876201565a80175e1aa68733574a2e4",
+      "gitSha": "ec65c1e4255f050d9555c6cdade90a5f8a6c0c29"
+    },
+    {
+      "path": "frontend/hooks/use-mobile.ts",
+      "size": 565,
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b",
+      "gitSha": "2b0fe1dfef3b17850bbac040665f514a8ffd0f15"
+    },
+    {
+      "path": "frontend/lan/index.html",
+      "size": 419,
+      "sha256": "ce216e5d9303038b4a14d8f61954a4ca9a05f300a2975e51f917d22b53098742",
+      "gitSha": "e39e7513af2f21b3938f03b8bc0ac79451f3e5ca"
+    },
+    {
+      "path": "frontend/lan/integrated.css",
+      "size": 15591,
+      "sha256": "4bb179302a82d05a31a029a6c1813da9268cab687a5c1a5281062a07f40b7db7",
+      "gitSha": "b0282c104c205cf3398c987517b6d6dbb11aa386"
+    },
+    {
+      "path": "frontend/lan/Integrated.tsx",
+      "size": 44769,
+      "sha256": "d4afa00abf462a1a3d7ecc1b8224cf1492c73367ac69c7e3b89a5407fe07eca1",
+      "gitSha": "567b14040a5b73e4b1c5889425f4ce1ba7a741f0"
+    },
+    {
+      "path": "frontend/lan/keys-utils.ts",
+      "size": 2406,
+      "sha256": "4a063eedaf0310773169d364ece6987f11f207e6051eb2d059015d130ea15940",
+      "gitSha": "215b2965116c1820089d8f295af11aa6b64fc0fa"
+    },
+    {
+      "path": "frontend/lan/keys.css",
+      "size": 5274,
+      "sha256": "87e12b24091bb4a2bf8566338a3d233128ffc179b0d62c64529b81e5d28ce851",
+      "gitSha": "f10edefb6b8eabc64777b759631e66b39d604c83"
+    },
+    {
+      "path": "frontend/lan/Keys.tsx",
+      "size": 26092,
+      "sha256": "74cce87cfab979cfa0db13d6cff3200062f536ad563719696f3b31ec96506494",
+      "gitSha": "bac8cdd5502e864d1ab688af2b05aa071153ff9e"
+    },
+    {
+      "path": "frontend/lan/main.tsx",
+      "size": 197,
+      "sha256": "87899fad1d6c45f3a8ba1a06d50d86a94e022029a28e5c7da7d3a31fa1957035",
+      "gitSha": "206930725373432ec1f0b5d3c8529b170d46f4a6"
+    },
+    {
+      "path": "frontend/lan/reading-chart-utils.ts",
+      "size": 3995,
+      "sha256": "e664852cf082fcc9d43b4c98f9260b59588803d00daa0977f2a0c9ecba120cbc",
+      "gitSha": "8dd6a6aa3ce0e2231ef49830205e8b320390a2bf"
+    },
+    {
+      "path": "frontend/lan/reading-charts.css",
+      "size": 5717,
+      "sha256": "d127cd468b5f691688351562f366e2133bad90771256e7ec6fffb02c69fe46b7",
+      "gitSha": "c9204d93aaafdbd5e4c9fde1168626aadc6a20d4"
+    },
+    {
+      "path": "frontend/lan/reading-print.ts",
+      "size": 2560,
+      "sha256": "3363593d99af4870d85740c0075fb1905dc2877948b5e86a4a0528f2d4d6db4a",
+      "gitSha": "b9dcd50031f3410e2261d7f853bb794ea36c5667"
+    },
+    {
+      "path": "frontend/lan/reading-query.ts",
+      "size": 1322,
+      "sha256": "672ad58422cfedc0e3d0a2db3576ae5a7b5385d6dd7b271634ea6e029f81787b",
+      "gitSha": "82fa01d550d7013016ebcf90bf619d1244a28a2f"
+    },
+    {
+      "path": "frontend/lan/reading-utils.ts",
+      "size": 4653,
+      "sha256": "bc8cc56ca3890ad7986bf6947f015db2b8efa9b1238d354c8aa30883a1b8f4a2",
+      "gitSha": "dccc15a7009b8d4fe9ae199ebb10dfc656976a6d"
+    },
+    {
+      "path": "frontend/lan/ReadingCharts.tsx",
+      "size": 12262,
+      "sha256": "a379b9fa2c7ff37341fd3a82ef8c8bd28d3fccb0aedc7a823ae4362c638c3e0e",
+      "gitSha": "0a0201881046487622b6f99cd4d429e171bc660a"
+    },
+    {
+      "path": "frontend/lan/ReadingReports.tsx",
+      "size": 3167,
+      "sha256": "09a08ea4255d04c0841184d43882666d196c5df04755ebf20148fd40a473b7cf",
+      "gitSha": "89c3288091486e2840e9c1e3b1682dfd9da073d6"
+    },
+    {
+      "path": "frontend/lan/ReadingsWorkspace.tsx",
+      "size": 10411,
+      "sha256": "e462a2d9a26bb0fdb733a3d5d020136bfbfae24e677d939f0db2bbd55ad7806a",
+      "gitSha": "ebc3f8778f35c8379fe5cfc811e086b4e38684ac"
+    },
+    {
+      "path": "frontend/lib/fleet.ts",
+      "size": 1514,
+      "sha256": "6124087ad2022a9701b1d43db88088d1e3bc32c50fde91f5a6115f376a60b5eb",
+      "gitSha": "c63f69f040e7ed0e3d2e58790a220bb9fa6391ae"
+    },
+    {
+      "path": "frontend/lib/utils.ts",
+      "size": 177,
+      "sha256": "53f3d3d070f0a9082934da25b875f9499855c2b0693868dd28be8c23d8730f68",
+      "gitSha": "b500fb167fdaa78785feb0ff03b51f8a182a44ae"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "size": 499754,
+      "sha256": "cdcd82a6c9f573677e561c988b4ec36933b6160a3d4c5843aad3ab6f9b79cddf",
+      "gitSha": "35302ec9d92fcafaa9dbb2e19abe84f7f5dbfb9e"
+    },
+    {
+      "path": "frontend/package.json",
+      "size": 1764,
+      "sha256": "afb82c4d5a06e9efcbf04733975e03f5ab9a448f43bf517f82097d419261fc81",
+      "gitSha": "0e8b7a033281491b995d4db095c605015a42f3f6"
+    },
+    {
+      "path": "frontend/postcss.config.mjs",
+      "size": 94,
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "gitSha": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3"
+    },
+    {
+      "path": "frontend/public/favicon.svg",
+      "size": 175,
+      "sha256": "96cb14d87c6505aa9ff662af810ce73e14cea42e7e117279f51f163674193f76",
+      "gitSha": "17679b6c86e13354f26392953252910196b4e811"
+    },
+    {
+      "path": "frontend/public/file.svg",
+      "size": 392,
+      "sha256": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307",
+      "gitSha": "16fe3d3a3ab9bd42e1616ec00066faba7e4aabe0"
+    },
+    {
+      "path": "frontend/public/globe.svg",
+      "size": 1036,
+      "sha256": "d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9",
+      "gitSha": "c7215fe0f2634ae9f51d15dacc09184f5343941a"
+    },
+    {
+      "path": "frontend/public/window.svg",
+      "size": 386,
+      "sha256": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66",
+      "gitSha": "d05e7a1bc066341298657dcc304dbadc4ddcab9d"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "size": 592,
+      "sha256": "c03684d97caf1e398e616980e5dce6b483113bd667172110d1fec826f18a425f",
+      "gitSha": "4b52e276d92b10c2562c33e93f76e7bc5c7449a8"
+    },
+    {
+      "path": "frontend/vendor/shadcn-tailwind-4.13.0.css",
+      "size": 16041,
+      "sha256": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a",
+      "gitSha": "7807c58eb94de8b764b9b6b7b5d8cde6d012b17f"
+    },
+    {
+      "path": "frontend/vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+      "size": 1063,
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+      "gitSha": "fad4d887a681dd49233e5ed01ee2c7a1513089a0"
+    },
+    {
+      "path": "frontend/vite.config.lan.ts",
+      "size": 343,
+      "sha256": "20e3a29af747d8460912e2ab594ce694d5a1963f30bd1712f977fe1fd75b0188",
+      "gitSha": "1f9621c6b85a1b7fbf59094c5b8fb09e0b80249d"
+    },
+    {
+      "path": "GUIA-DE-USO.md",
+      "size": 9071,
+      "sha256": "4143ffcdc9ccdcca1b4b3274dc00e8ff24c6493ab9cea439b0157efabddf7894",
+      "gitSha": "01f31029438a678859b8febbc3c7036e4f30f0d6"
+    },
+    {
+      "path": "INICIAR.cmd",
+      "size": 83,
+      "sha256": "f01c372cc184158ab52bd01a96136b19ecffb3359beb2574d3f53c7789c16fdc",
+      "gitSha": "574f9aed407505abd2131c47180d33aaa8ec9451"
+    },
+    {
+      "path": "INICIAR.ps1",
+      "size": 961,
+      "sha256": "0caea682ae1697e7b2b37842c42b44e4261cd6acfbb53cc2e0943cce5b8be517",
+      "gitSha": "11c307e57c5d0e51ee3aea1ad074a4cf4433d2d8"
+    },
+    {
+      "path": "LICENSE",
+      "size": 4659,
+      "sha256": "503f181a88e2127855a117c6b39932361f6d4ce34aa6c121fd4f18e803bf9227",
+      "gitSha": "1901e961b653c1b7e79c3d70c39473da0586279b"
+    },
+    {
+      "path": "package.json",
+      "size": 462,
+      "sha256": "dc32123814fa914d50edd57f6fd0c27d76c62eaeed5e1116b589baa3d050f0d7",
+      "gitSha": "48c3580f94ae5889c98fd329bc1e2d2a43fd271a"
+    },
+    {
+      "path": "PARAR.cmd",
+      "size": 81,
+      "sha256": "64d72c2e5e7abb8b44759d5ff8c349e16980e3e5fc3b7f1704022eb49b81e2ac",
+      "gitSha": "e03adfca2d88cd0e95efa31360ab5d1d01498287"
+    },
+    {
+      "path": "PARAR.ps1",
+      "size": 575,
+      "sha256": "d114c69f6a6c18017160ba4cdd9e4662cba4055bb78afa8641d826eefb64e903",
+      "gitSha": "bfe2e87587b43e0b930beb2625cf2c87159c9ca9"
+    },
+    {
+      "path": "public/assets/index-Bt1ejGHG.css",
+      "size": 179392,
+      "sha256": "34414811cf00f5e0f16640c06ae627b296b7996d26782184571e02a3f494e74e",
+      "gitSha": "97983f5b2c573c955064d2e4e6f67824a2e52659"
+    },
+    {
+      "path": "public/assets/index-C4wYNI4J.js",
+      "size": 505043,
+      "sha256": "052417f375d93b85b1d31c6a72c336a148b8569f90ea46e3fc60d37a9c588edd",
+      "gitSha": "25b82df1b72704af86244f3e5729730bb126989b"
+    },
+    {
+      "path": "public/assets/ReadingCharts-BnPahfa8.css",
+      "size": 5683,
+      "sha256": "67e92bf20fca6cf1c2948f0643cacf7d0b69a5855cc46a9c632a17f172b26cd9",
+      "gitSha": "e7eaea0860cb626b4b6c13b017fea3634ba430fc"
+    },
+    {
+      "path": "public/assets/ReadingCharts-CvXYhSUB.js",
+      "size": 357963,
+      "sha256": "bfd146e6779976805a2aecd0a20db201c84614373573d0429a94f11e0ae4a7f2",
+      "gitSha": "8f824d14d3df57d7c9636aefb4fe1404d589fbe3"
+    },
+    {
+      "path": "public/favicon.svg",
+      "size": 175,
+      "sha256": "96cb14d87c6505aa9ff662af810ce73e14cea42e7e117279f51f163674193f76",
+      "gitSha": "17679b6c86e13354f26392953252910196b4e811"
+    },
+    {
+      "path": "public/file.svg",
+      "size": 392,
+      "sha256": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307",
+      "gitSha": "16fe3d3a3ab9bd42e1616ec00066faba7e4aabe0"
+    },
+    {
+      "path": "public/globe.svg",
+      "size": 1036,
+      "sha256": "d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9",
+      "gitSha": "c7215fe0f2634ae9f51d15dacc09184f5343941a"
+    },
+    {
+      "path": "public/index.html",
+      "size": 522,
+      "sha256": "153ff20c9d7305701e4a3ad2dda1a7e334be5c5a4bbd68f39bf8b0adac9df3f5",
+      "gitSha": "59aeeb996f4dad44d1438f48c70fd8f716be18a5"
+    },
+    {
+      "path": "public/window.svg",
+      "size": 386,
+      "sha256": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66",
+      "gitSha": "d05e7a1bc066341298657dcc304dbadc4ddcab9d"
+    },
+    {
+      "path": "README.md",
+      "size": 8062,
+      "sha256": "9daf182d7f7b034d75cc977f45617aa2ef4ea103d27d94cbd69592a51e194146",
+      "gitSha": "ef12c0aceca30f7dc2f98d99924b5052b3034e31"
+    },
+    {
+      "path": "rede.exemplo.json",
+      "size": 114,
+      "sha256": "fed69ae30bb4a1d66a364a6247cce81c6e873d49a31bd86779ac89d4a21d12e5",
+      "gitSha": "47314f041defd5ca7a89e85f895ca948fa6bf766"
+    },
+    {
+      "path": "scripts/build-ui.mjs",
+      "size": 532,
+      "sha256": "9ff6067788c1048ac36a0d99786f4a26d6d2f6793bba8a50333713681cb8d94e",
+      "gitSha": "7753b05d3d87e159e59dbf6bfaec576ba510892c"
+    },
+    {
+      "path": "scripts/verificar-repositorio.mjs",
+      "size": 4547,
+      "sha256": "73401e1ec0c8cf054293ee168a5a8ca85db67c95f011442aa792a3ffb70f7863",
+      "gitSha": "3069e5a452005e136efced5c93c762688225c826"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1496,
+      "sha256": "344b37e53bfb22f6e5b3e2654d6f6be393205466cbbf8527dccc9859cbef1737",
+      "gitSha": "be7ba548e2b4d396f9eff5c5b559cb1bafca76f6"
+    },
+    {
+      "path": "server/api.mjs",
+      "size": 6871,
+      "sha256": "4185cd410e97e265b3a4ff7f7bdffbd857ded4aa350644e0988a150276614cb4",
+      "gitSha": "fb7a7283b916dd36b5d51b8c0c850f7e8e10f76e"
+    },
+    {
+      "path": "server/auth.mjs",
+      "size": 5999,
+      "sha256": "4272ae2a4354c67c95e3bfafe114ab34751a352d630b1ce7e7ff1a4858070d2d",
+      "gitSha": "46a3df071347c0ed4e2216901b6577e1ebc439cd"
+    },
+    {
+      "path": "server/cog.mjs",
+      "size": 11521,
+      "sha256": "d1ed793c38c875e8e089f9ef96f607a69cfed0928a2b0951f34f442bafc4f0a9",
+      "gitSha": "71ab393a6c3939b7c8d5b81c25fcdd8299c47921"
+    },
+    {
+      "path": "server/db.mjs",
+      "size": 1511,
+      "sha256": "376887ee34fe68b8244b309439e010faf03fc6bf3787f736266f9d14cc9f7eed",
+      "gitSha": "40d9cfa6e0b3ec63f2fd25c0466f6ac695738b79"
+    },
+    {
+      "path": "server/fleet.mjs",
+      "size": 1069,
+      "sha256": "0c96580affed025d00c55f1f42db7e94fa91a2047f0caa268c4868f65dd53cae",
+      "gitSha": "29d4896de01deb3df43b93e3b5c84e904aecf55a"
+    },
+    {
+      "path": "server/initial-data.mjs",
+      "size": 116,
+      "sha256": "2ef79ad4c38a2ede10cd0e8bca6211288872906382323a02119b61e2658a8ee0",
+      "gitSha": "1d000c54e810e4c00ef39bbd263cd3cc1accc1f5"
+    },
+    {
+      "path": "server/keys.mjs",
+      "size": 7555,
+      "sha256": "2dc1e0d13c807f63f468385612ef2384f19ae77ef446f879043ea480ccde13b8",
+      "gitSha": "bd218fb0021942067b219a3944bef0a6531ba99a"
+    },
+    {
+      "path": "server/mail-recipient.mjs",
+      "size": 577,
+      "sha256": "780255d5daf75cf9505f472e39e6c1af1850b3892d79b89c143b876575519012",
+      "gitSha": "195a2ccb03f77b8725cdb6793b55e981dc8bbd2c"
+    },
+    {
+      "path": "server/mail.mjs",
+      "size": 4849,
+      "sha256": "ba909b474b880380235d7047d266084a0f50449b9d1d2045fd864a9b2fca43f9",
+      "gitSha": "ebf5347c97db590fcf4786534c49334441483c69"
+    },
+    {
+      "path": "server/migrations/0000_soft_dracula.sql",
+      "size": 1480,
+      "sha256": "c67ddabd2ff481fca2ac783a7ce02ec35a92d21212bc67459daeae5f36b061f9",
+      "gitSha": "faa6bccdce3f4de75224236bd6abef4083a7641f"
+    },
+    {
+      "path": "server/migrations/0001_ancient_maximus.sql",
+      "size": 69,
+      "sha256": "a6327c42e2b5bb56c3301273eb420a7255aaf3f385e6e8cd824e1f4afce83255",
+      "gitSha": "73836b667458029bcdb2564017b800f9090c0273"
+    },
+    {
+      "path": "server/migrations/0002_cog.sql",
+      "size": 3621,
+      "sha256": "1f9a68c7b01f7159497a1a1da11f3e8136f28291a6e9ebf84067809ae732b512",
+      "gitSha": "9c58cf7036189d8a4c9aae3bd6f73996876b2184"
+    },
+    {
+      "path": "server/migrations/0003_keys.sql",
+      "size": 1501,
+      "sha256": "2ed18aa5442acf4ee7f358baae238d817fd0fe04bd39ca5ac5d1b7ec3a23c4da",
+      "gitSha": "8babe03a3e7b32d29aca9be67db3df0200ab1e7b"
+    },
+    {
+      "path": "server/migrations/0004_reading_profiles.sql",
+      "size": 54,
+      "sha256": "5d67aef8119d5fb24ed3712e63045e7c6c56ff7038bdc515d8570df2f0f2c99f",
+      "gitSha": "71587e7e1ab28ee7b1d641f1eeef97aaaca6bd76"
+    },
+    {
+      "path": "server/migrations/0005_reading_queries.sql",
+      "size": 397,
+      "sha256": "d903e7c7f79c9a8a4cf0147952353eb66dcc22b8c65d46132b2bb040ab979f8c",
+      "gitSha": "d8ac4272e8a7a77f1191927aad6b81c123a5f3dc"
+    },
+    {
+      "path": "server/reading-profile-templates.json",
+      "size": 53031,
+      "sha256": "60fdce68f0cdd415570d40d5297f7984ff1655439560f380fefe8f7921a0f711",
+      "gitSha": "bff38f8a79365ce852e7a404412c5d2e32cdc434"
+    },
+    {
+      "path": "server/reading-profiles.mjs",
+      "size": 5302,
+      "sha256": "804522ac6e18ada41a3a03fc66409da2ce369cd761f4b80252cce5743e75fc40",
+      "gitSha": "ae579f0fd68869a3006da06009d7e77a5e6f4067"
+    },
+    {
+      "path": "server/reading-query.mjs",
+      "size": 4618,
+      "sha256": "4f7f8a3e87b88ac48a269ec20f30fdfe72b105fc78db9a7803cdbaf74d920814",
+      "gitSha": "72e201b9a168dc5b87d424b12214e01ee664230a"
+    },
+    {
+      "path": "server/server.mjs",
+      "size": 9110,
+      "sha256": "6d1b36c51b53bde4650d51962778616e3f0789eec77870ef8710c91ab2b2919b",
+      "gitSha": "086f2cdd573c4405ba603ea5ff57146a2b6ad731"
+    },
+    {
+      "path": "server/sqlite.mjs",
+      "size": 2574,
+      "sha256": "6933946303894c14eee0380af22de8f57dc74d0664d31cf492b094ac313dcb38",
+      "gitSha": "7f23ce4608057a5652170465c9cb198f803984a4"
+    },
+    {
+      "path": "server/vendor/nodemailer/CHANGELOG.md",
+      "size": 58878,
+      "sha256": "ecb8ef811facb23abbd3e098cb142d53e2bf730070f62dc18c0f5364d09b22c6",
+      "gitSha": "b1d1c9cb58ed926ef9d638ed0717c1a9a5e7a58a"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/addressparser/index.d.ts",
+      "size": 1186,
+      "sha256": "62447236e4d85b9f6b8739f0b6e0351a9231759e598769db22e145fcada9757f",
+      "gitSha": "adc98336af491551decc0a864ddc79002fd01f4b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/addressparser/index.js",
+      "size": 27968,
+      "sha256": "9c4fa53b04d37a0fa9dbbb9dbbf44884641061d63bee46b49e7fac6ec8c0ea81",
+      "gitSha": "ae807012e9724d3cc11411a3f0d29e378d168a6e"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/base64/index.d.ts",
+      "size": 1135,
+      "sha256": "b853bdbad52021eb2456bb2bbf38a7a6b9b2b2f40ec93a7b7de181a74356a112",
+      "gitSha": "56f51cd090bb295cca9b903f2e516c7e0bd6f88b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/base64/index.js",
+      "size": 3878,
+      "sha256": "ece706e84e3731a3d48d12fb038c123821affa0780eb66e8f4e012f8ee14846d",
+      "gitSha": "4d5a388775dfcb9ba3c4207ba38b083c13e41439"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/dkim/index.d.ts",
+      "size": 1522,
+      "sha256": "5499da41f3a7fe522f3658554f59cefd7b1cee7edde9f20e9d62e97b357a72d2",
+      "gitSha": "78a4b67385d1e04b65c0fc79e08e87f9200c2f65"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/dkim/index.js",
+      "size": 7812,
+      "sha256": "fddaf5574ad36662c84095ada5acc4458ac3ca45bcfb7221d8b0989baa86133a",
+      "gitSha": "2b311a6ac5348fe5c772e90e3a3b0d929ef85079"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/dkim/message-parser.d.ts",
+      "size": 1421,
+      "sha256": "405f412888e97f9b3ce7e5dd9bb1ff6ce958a1966ca37b216c2b4a8f01820073",
+      "gitSha": "21e061b1edc87978e7834aa75a341f78340d54a0"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/dkim/message-parser.js",
+      "size": 5993,
+      "sha256": "234ae3a54a7af604d486238120e416bf98e1a4d5d50eefd549e57c134f51760e",
+      "gitSha": "603d129963b587f623a53daf32fac2e4133aa3d2"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/dkim/relaxed-body.d.ts",
+      "size": 1115,
+      "sha256": "644df1723c5ff7ca7ee524344ecca672357db172cdbe300f6efa6fd014a1b793",
+      "gitSha": "c5985a4f299e48fed25439ef234ae1e8d8e1435b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/dkim/relaxed-body.js",
+      "size": 5690,
+      "sha256": "b5b72cf25e7483371cebfb5c9019ba3e7c084db64357bf031cd915526c1d8a47",
+      "gitSha": "9d18eafbe394cb8a4da47ad0946680b7ba12c52d"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/dkim/sign.d.ts",
+      "size": 2011,
+      "sha256": "f5c36979f0c67d37ebf20e20994991824dfb6d0ff221f819b328197b980147e3",
+      "gitSha": "51c54f1c66a3392bde8449160a17b10a3e9344d8"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/dkim/sign.js",
+      "size": 6297,
+      "sha256": "9903de9eeb10a757080583edecf6b00daa1423ca505df05b36106710fdbb41e9",
+      "gitSha": "291deeec0819eb04c6efddad86a2dde838abc12e"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/errors.d.ts",
+      "size": 4127,
+      "sha256": "4a7036a72baa748d37d4ae526db24bf1e485be5879ed333f7380267d2461308f",
+      "gitSha": "c85653cc9b8d7ec3bbceb03695ff531eefa84947"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/errors.js",
+      "size": 2873,
+      "sha256": "2d1edaf8d45f6e498e201b63eb870e24c7228dc7061c47ce04e385c49d8eb5c2",
+      "gitSha": "3cdaa23586fd7ab326ab3ce44fcf32d89daad7b4"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/fetch/cookies.d.ts",
+      "size": 2887,
+      "sha256": "aea3f1edca046b3712d2dd4db02ad0728fafd96a4875e258d0d167dd7835304d",
+      "gitSha": "3d631296ffc335ff97494bc86b6f8a2bab1a640c"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/fetch/cookies.js",
+      "size": 10482,
+      "sha256": "88252eda28a550694ed051c83747c859cc4cb092d755e1cf05b35bee987ed092",
+      "gitSha": "4c832e347e27b3fcd54b93c71caa0305b840335a"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/fetch/index.d.ts",
+      "size": 2174,
+      "sha256": "71b3e2123d09cb3edbbbb90225eaa1389d78e0c5c0f6673a7554f15e67cd51fc",
+      "gitSha": "0490e70810bbfb5ce4d390f88d673df7a234375a"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/fetch/index.js",
+      "size": 15551,
+      "sha256": "dd780cf7d9edcd3e967154e2708f7d74cb57230db81bda41613bae86778f2bbc",
+      "gitSha": "b05b5b2858e40dd8b8d629228bd706a79608814d"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/json-transport/index.d.ts",
+      "size": 2052,
+      "sha256": "e1055e4ad933417b48e5392b5e1c70d4bfb17f3732d7ec696d69c85e1d1949a4",
+      "gitSha": "5adc73afa344c51c014f200b132eaf30b3347da1"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/json-transport/index.js",
+      "size": 3794,
+      "sha256": "2f88b3c18fbd8b8e50c5620317cd4dcc6d66faae6d95004fcd05d40788e54cbf",
+      "gitSha": "97acc91a0400b38a5f49f178d8feee4465f417b4"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mail-composer/index.d.ts",
+      "size": 8196,
+      "sha256": "71362eb13407bc8e974e39a6bdae040befc1cd2e9286243c642d43fdd2866928",
+      "gitSha": "c076115d529cd4dc2d68cec05741acfc5c728d9a"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mail-composer/index.js",
+      "size": 24942,
+      "sha256": "78a6446d8510eb6d0338a78fb5611eb5fda0222758b9ef8a62ff0dfc3a766abd",
+      "gitSha": "437c8ebfea5f71c2c8cf14c5b6878575b361ae3c"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mailer/index.d.ts",
+      "size": 10458,
+      "sha256": "104382b3bf3686cd84fd2f624c88603d15617e7e8844538168a7231f65e18278",
+      "gitSha": "300d8050372bc28ca576513f5116fb49e3e716a3"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mailer/index.js",
+      "size": 17620,
+      "sha256": "98b47927000794fffd435d90aba04589ae2517678dcd897e47afef106b2405e9",
+      "gitSha": "22ac10ed64cfce6f495762e366ef5e995ce239a8"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mailer/mail-message.d.ts",
+      "size": 4093,
+      "sha256": "d035d93b7f56fdbf384f0141510bdb5d2f68a0018bd3d2498e47ced9f17f1148",
+      "gitSha": "4db9dd31e16d62272e1d4d34cc80553c3ecb3016"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mailer/mail-message.js",
+      "size": 16602,
+      "sha256": "b7eaf347c2759d0b8a8852b564ea6908548ebb2ca61162663af327df6dcc6961",
+      "gitSha": "2f17516c3575337b8b0d53e4ddfeb47b03ee80c4"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-funcs/index.d.ts",
+      "size": 6569,
+      "sha256": "bbe3b9c416bbf0044427a1d7e99b84c0c84d279b24200704739a0cf9b5323070",
+      "gitSha": "3c7b2793a2bc245f644b7b346608497c1fe6372c"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-funcs/index.js",
+      "size": 26913,
+      "sha256": "6f2ef65f409a1c4eeb657e089f427e75d89d20f539b1040b93255628ea48cc5f",
+      "gitSha": "3433ef0a5c348b79a6c943383609105ff6b92306"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-funcs/mime-types.d.ts",
+      "size": 151,
+      "sha256": "0e1d4d8eb8d382535e4dd02a8a1d230f418a94c752eebcc2e4487d8dced83b0f",
+      "gitSha": "389e06df7362cbd91fdfa1dfcad14adf9d3285ff"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-funcs/mime-types.js",
+      "size": 90272,
+      "sha256": "9d26680bae58c307e99cf16cd74e0d07c7d56683f5cb0d7d975be7d810a15ba5",
+      "gitSha": "10dd6c6289c633fb6c5d4dee6deca4bd02c97971"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-node/index.d.ts",
+      "size": 12728,
+      "sha256": "21c8d35cfcabfe98abaca1e4dbfc15aecb0d5ae3e4a0c2d039588ffe52af017c",
+      "gitSha": "2030d14d0f208b8c590158397f0ab72daba09819"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-node/index.js",
+      "size": 63133,
+      "sha256": "1b9c2de5778ed39d9b3e67899b8e22e74912216ad80915dd5566a28a48629738",
+      "gitSha": "03c5381d7d19bacddbf3d3c78f68d2c8cfd81a70"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-node/last-newline.d.ts",
+      "size": 145,
+      "sha256": "97f99d766b5a4d535e33341811e2789b8c6b1dfa0ebce0614c9a5d8ae575c334",
+      "gitSha": "301f0c7a3e4254d7f9c9d2ee351bbb8c3aee1d85"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-node/last-newline.js",
+      "size": 950,
+      "sha256": "3835280f3fed476eb5b109407bfdc38fb46f19baf561ca68d3482dd316e5626f",
+      "gitSha": "36bdfda7f3ceec52fa37f2ebff64ab37eebae0a9"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-node/le-unix.d.ts",
+      "size": 252,
+      "sha256": "f147fbd429b3856f5285848c78f44f0816a942fc4d8945d2c53c698cc7e43e8d",
+      "gitSha": "20df43f73505cbab7ff0e7a0e79bacb5980a1b25"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-node/le-unix.js",
+      "size": 1123,
+      "sha256": "31464bd9c69811690e00b79730e2dc937bdd72dd75fb0197d2435e79811ab707",
+      "gitSha": "9d94ee8348e93a035c2ae18f09377b265e265491"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-node/le-windows.d.ts",
+      "size": 300,
+      "sha256": "e6e75484ead0f14f87dac779e8db036ac8b41efd4bbf8da02d31b63fb55226a1",
+      "gitSha": "cd2f168e48c1f77f001f3fb1a73d7b0e62b91efa"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/mime-node/le-windows.js",
+      "size": 1461,
+      "sha256": "e88c3044f1f7f5a8abdd7f84c8582b491b39ac5238e971604d001d47208d4a83",
+      "gitSha": "6a12cc1e06dbbc5a75549f0d4b69ea8f2f8da2ed"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/nodemailer.d.ts",
+      "size": 5499,
+      "sha256": "19164d3a55b745f210ba1d33fc68d55b3074611a96c87e73188de1adf7e4e23b",
+      "gitSha": "3dd144271ab521ab974248d454adc9e031458da8"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/nodemailer.js",
+      "size": 8566,
+      "sha256": "d1a10176126e6c661fc17ace5f0fcf54c7e1a1ae8df6387762ea75a1a95e0f89",
+      "gitSha": "04d68d9a282bad7b4da78e49f5ebba36ce5d7c9d"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/package-info.d.ts",
+      "size": 143,
+      "sha256": "757dd9ae066520b43c8f64fb30ffe0ca9217a3c7fca99cb6ae09b69a12da04e5",
+      "gitSha": "4e7cec12359cc727918938e62abeb2b301bcb47c"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/package-info.js",
+      "size": 314,
+      "sha256": "40c2621e9297e21cc6c449cf760a974e591bf5e6cce07f9902c11a93e07fe8a6",
+      "gitSha": "018f763441ccfa80c884160509d5e9b055d74b0a"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/package.json",
+      "size": 27,
+      "sha256": "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4",
+      "gitSha": "1cd945a3bfd97ab9befff9b9e468ef791062d59b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/punycode/index.d.ts",
+      "size": 2724,
+      "sha256": "8fb85424b89b8806b1a438601357219963ec33e1fe75a2bb68361346661f9568",
+      "gitSha": "b0d1d719462280a2464893bf9dc45efec8d3d087"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/punycode/index.js",
+      "size": 15184,
+      "sha256": "66bb2414ac156a1aa3462fa78168e95d35edc0cd7387592e833064712eef9ab2",
+      "gitSha": "43b1524ea54b9ee4cadc7e44c77f1f8d8889767b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/qp/index.d.ts",
+      "size": 1054,
+      "sha256": "40be795933b59644e4c402f93ac9e783d0892b340bf50a4cf3eb1ec4ec30a500",
+      "gitSha": "92eb8b9b75c10a48b551f43f6f9519d72a587273"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/qp/index.js",
+      "size": 6546,
+      "sha256": "7066ef69bcf0aa18067fb19be15cdcff4734c30750ac62cc44f3e0d1e1dc176f",
+      "gitSha": "f4da4a6ff5861387d73cf2f5b0d6b4829afbae14"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/sendmail-transport/index.d.ts",
+      "size": 2538,
+      "sha256": "5912253aab9d30dd1e11086a9b8a42e77ce504e576451b1b848faf094b68d6a1",
+      "gitSha": "e71c02684053c68d97d84f208b64586e983b896e"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/sendmail-transport/index.js",
+      "size": 8690,
+      "sha256": "bcce774e25d95a720e6aaa73c498b7089acf821248eb838978b8d0c195d2418e",
+      "gitSha": "f22c9355dfc897ff504eae43cbc3b07cdb5d7ce4"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/ses-transport/index.d.ts",
+      "size": 2749,
+      "sha256": "011176bb2ec61f1bb2523846927e5da2ee674da9b031f06780c6d6ac9847c852",
+      "gitSha": "e3f6358a7b390af37ace209475e59322417b4a53"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/ses-transport/index.js",
+      "size": 10519,
+      "sha256": "1e921428a073d97518c3140b813c78e250b6d4915669ef34e177a6757a73e070",
+      "gitSha": "1fc40a1b0433f8f899526ad9a90faf703f9b18f0"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/shared/index.d.ts",
+      "size": 8757,
+      "sha256": "29d0cc7869dcf8fe408dd85dd3d5af83a584d397aad1dda500e901c3aed6da31",
+      "gitSha": "e6e5077c3c508e39978cd84f186a3f8abbf30b6e"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/shared/index.js",
+      "size": 25390,
+      "sha256": "9caa155eada9e1592bd67676632b6b5078f4e410b3d9ae6e186237975446122d",
+      "gitSha": "9d513bb8b026f3112e64c76ed3068aaf60831fab"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/shared/objects.d.ts",
+      "size": 1175,
+      "sha256": "da93ecb33e0b7e915f43ba741189b83587ed0a4810a141985255acf9c001f9a8",
+      "gitSha": "d763c81b3d2b074516ce8c1ff439f1524bae0970"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/shared/objects.js",
+      "size": 1912,
+      "sha256": "64ca71908c7a1dc0390d75a2746e8bd53b100e3c2fdd56bb2041962d7d78e3ec",
+      "gitSha": "238b0ec7e1a1b31f51993ac04c186efcd0950449"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/shared/url.d.ts",
+      "size": 746,
+      "sha256": "e28dee2f44d0af199e4afeba607e02f810db0807ab72f44a72263123657b71aa",
+      "gitSha": "b4a7544a430d40c576b2069a8ae55317b53e4dc5"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/shared/url.js",
+      "size": 12485,
+      "sha256": "a67371f5b3c6c5c8e9a5c19ddcf5d83227c57205d911fdf504ea80073bd640fd",
+      "gitSha": "43f428be291a4717d43b1cafffb83efd8685995d"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-connection/data-stream.d.ts",
+      "size": 473,
+      "sha256": "bd257859d8fb6f5acb693ac7b1e31103fbb7a0c22057a300c22b6160eaa3ad3d",
+      "gitSha": "2aa8ff8f0557a2e9b53f0eb1d8a7a62fd2e181cb"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-connection/data-stream.js",
+      "size": 3199,
+      "sha256": "d3e3eb5a51b54beb87a488acee5bed5bc3298a8f31985e115777a2f4844442be",
+      "gitSha": "37693d23ff147f156e578d1c41953f601c2b72c8"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-connection/http-proxy-client.d.ts",
+      "size": 1793,
+      "sha256": "adf4d3c1aae34b8ef029c4ed7783c611efe815dbfda5603680b5f91d5875436c",
+      "gitSha": "5483cdc1d8ba7dd58f673971558bfa8d726b6228"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-connection/http-proxy-client.js",
+      "size": 7057,
+      "sha256": "12140083ca1f5bb4a7071d8de091d81d8f8976ab0defe322c9503cb8be1352ee",
+      "gitSha": "aace90b8a1673d5314e1fcf87361f2caf8cd76ac"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-connection/index.d.ts",
+      "size": 15304,
+      "sha256": "77e00f37aaf16dcbe566a60ad16e2383239287157f0243ea8ba54e292c07d1ee",
+      "gitSha": "d8f1d34d6086713819543e4497145eb8fc7edefd"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-connection/index.js",
+      "size": 73534,
+      "sha256": "7c6b914c50600ea10593fae68000f80168e08916a6fb1de3ad1c4153edc7fe73",
+      "gitSha": "ed494e418f0d70e2190b0e2b143e0b0c4b0ed91b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-pool/index.d.ts",
+      "size": 4588,
+      "sha256": "3993bb22474b87debf6664baf9dde955528cfae2305251d058bb29be5769686a",
+      "gitSha": "2e5b488dc01ebcae88b7c15ed4556aab951d9197"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-pool/index.js",
+      "size": 20079,
+      "sha256": "5d727f712c31244df616a6d64e0fc05923046bbb00d072275a0ab1b042562d0f",
+      "gitSha": "363fc258088c191f88c7e8a73ca182f0f054c4c5"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-pool/pool-resource.d.ts",
+      "size": 2004,
+      "sha256": "04ae5d7a4bde590da5a0bef4cc10c4a684736bb7a47e6702e8a1dfd86da2872e",
+      "gitSha": "5aa8d608f4a924c7b8618413ad8faa35eecf61bc"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-pool/pool-resource.js",
+      "size": 10371,
+      "sha256": "a5897afb5dec6e8cd180aaa7f86b482e3f0d3497ea45e4569f8256c2e08d26db",
+      "gitSha": "97ddf5c624fcf93a006f0af013b65ab56d043835"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-transport/index.d.ts",
+      "size": 5968,
+      "sha256": "ab327c3f923b32140fb9c819dcf0e02f75c1c509524557f992e24cadc39621e3",
+      "gitSha": "c3011cedf89185ccdfd6f2443e039b5686ef5fe4"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/smtp-transport/index.js",
+      "size": 15401,
+      "sha256": "2739d4d1471afeed47fe1e47ab16ca252b2540b22aa50d867f6bfd3ba7c2f792",
+      "gitSha": "e98a5c9af182bf20e9b44f0dfc7e62303d633c18"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/stream-transport/index.d.ts",
+      "size": 2388,
+      "sha256": "c26da6ee8e26a447f43f4936ae61db473677dbc34c8338d92ea53431c48d9750",
+      "gitSha": "0f305476f0045f1c5f87b175750ad22ba618a60b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/stream-transport/index.js",
+      "size": 5922,
+      "sha256": "8588c137f23ac1f86d3dfe06b850431a98e81496b3611fe545df7e4dac7f4284",
+      "gitSha": "05859169a15133df135b5d80d8b0dc093fd6c1e3"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/well-known/index.d.ts",
+      "size": 1398,
+      "sha256": "9b0ebfade7f6a61c37bb5d70589076f0f19ddc15a0955ce7bf5a4a37ff2f900e",
+      "gitSha": "0ad2180a3da3129aa73d444ab5e35a95bb0df4d5"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/well-known/index.js",
+      "size": 1521,
+      "sha256": "d3a02c4868d1260d7ed8a9c0729395db33f9364614dfb483db3089ca2419a669",
+      "gitSha": "badfa4929ba8fc612e17f4e410a5f3241e7d73fa"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/well-known/services.d.ts",
+      "size": 137,
+      "sha256": "0ad3629089aa672b73fee1304a33f7ea38581b448a9d5144eae77cfa209eae26",
+      "gitSha": "cba489240eef533afd60ac4489e7dc0993c585fc"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/well-known/services.js",
+      "size": 16929,
+      "sha256": "0ede89668358524705a0c5303682b9373f903d38384adb2b513bc9f35639748b",
+      "gitSha": "a4188272866c4bf298f2e5e6adace9d64644de95"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/xoauth2/index.d.ts",
+      "size": 8219,
+      "sha256": "7c0bc3e4e040848400d91753e10a07294f93657d081c04ef87b308b67ff0165c",
+      "gitSha": "b02f26c612c3a321bbe6226d9a6997abfed69677"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/cjs/xoauth2/index.js",
+      "size": 17815,
+      "sha256": "8a1ca884f4358a0772d612b591570727e3f13553190e3e8ca50ed47e94d45ad3",
+      "gitSha": "40671b49b0cab9214c7894ac554baff006ff61ca"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/addressparser/index.d.ts",
+      "size": 1186,
+      "sha256": "62447236e4d85b9f6b8739f0b6e0351a9231759e598769db22e145fcada9757f",
+      "gitSha": "adc98336af491551decc0a864ddc79002fd01f4b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/addressparser/index.js",
+      "size": 27706,
+      "sha256": "435352839159de90809c367934841952fcb8289e3f1da14e2f485e0762499ee3",
+      "gitSha": "9babfc6100e5e2de14eee5d1cb6dae696e3606ba"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/base64/index.d.ts",
+      "size": 1135,
+      "sha256": "b853bdbad52021eb2456bb2bbf38a7a6b9b2b2f40ec93a7b7de181a74356a112",
+      "gitSha": "56f51cd090bb295cca9b903f2e516c7e0bd6f88b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/base64/index.js",
+      "size": 3704,
+      "sha256": "97229c2204e0e42c9f7e228b5cdb762763f6324ca6aef789520e1ff70691308e",
+      "gitSha": "48f69cc3767e7310878b036841ad03700dbba671"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/dkim/index.d.ts",
+      "size": 1522,
+      "sha256": "5499da41f3a7fe522f3658554f59cefd7b1cee7edde9f20e9d62e97b357a72d2",
+      "gitSha": "78a4b67385d1e04b65c0fc79e08e87f9200c2f65"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/dkim/index.js",
+      "size": 7052,
+      "sha256": "aa52f68741253b127857f27068271a424fe7f86b0d387f164b01e45213ae54ac",
+      "gitSha": "51c8d5b5d415e4b8c5c83f286daf5ce6e951100e"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/dkim/message-parser.d.ts",
+      "size": 1421,
+      "sha256": "405f412888e97f9b3ce7e5dd9bb1ff6ce958a1966ca37b216c2b4a8f01820073",
+      "gitSha": "21e061b1edc87978e7834aa75a341f78340d54a0"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/dkim/message-parser.js",
+      "size": 5712,
+      "sha256": "8a0f013536ea5031bdd3bdc2dc53a17bf8e0abf524ab0966f2c24daaaa7786c3",
+      "gitSha": "53316417b1555483813cab4939d913a45ad2d4b8"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/dkim/relaxed-body.d.ts",
+      "size": 1115,
+      "sha256": "644df1723c5ff7ca7ee524344ecca672357db172cdbe300f6efa6fd014a1b793",
+      "gitSha": "c5985a4f299e48fed25439ef234ae1e8d8e1435b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/dkim/relaxed-body.js",
+      "size": 5228,
+      "sha256": "177f935818149f1e9f2c27f6a509c4932b1865c982164919cafb27b8333e22eb",
+      "gitSha": "50c40ef531c1f29019c17b56a5d2201e4218b43d"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/dkim/sign.d.ts",
+      "size": 2011,
+      "sha256": "f5c36979f0c67d37ebf20e20994991824dfb6d0ff221f819b328197b980147e3",
+      "gitSha": "51c54f1c66a3392bde8449160a17b10a3e9344d8"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/dkim/sign.js",
+      "size": 4480,
+      "sha256": "d018f513fd5da2673af85953fead86bc60f193c670781cbb3d8a47871fb91a4d",
+      "gitSha": "66c3aab092e32f38e07c13756c53a50f5221313e"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/errors.d.ts",
+      "size": 4127,
+      "sha256": "4a7036a72baa748d37d4ae526db24bf1e485be5879ed333f7380267d2461308f",
+      "gitSha": "c85653cc9b8d7ec3bbceb03695ff531eefa84947"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/errors.js",
+      "size": 2465,
+      "sha256": "5a5205c782778368531c4d2c5b5e2409adaaa6b71df40ea906b7cc54bcc4a212",
+      "gitSha": "c9ed3a19c830ce9cc8d091218b1f4d691f57a2b8"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/fetch/cookies.d.ts",
+      "size": 2887,
+      "sha256": "aea3f1edca046b3712d2dd4db02ad0728fafd96a4875e258d0d167dd7835304d",
+      "gitSha": "3d631296ffc335ff97494bc86b6f8a2bab1a640c"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/fetch/cookies.js",
+      "size": 8670,
+      "sha256": "1686ba61b18191df4dde327f7ac927b0ebc26f7d06fd6971e81f3329c438844a",
+      "gitSha": "0a6322de37d02281755b0da577a1b0ba7052e11c"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/fetch/index.d.ts",
+      "size": 2174,
+      "sha256": "71b3e2123d09cb3edbbbb90225eaa1389d78e0c5c0f6673a7554f15e67cd51fc",
+      "gitSha": "0490e70810bbfb5ce4d390f88d673df7a234375a"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/fetch/index.js",
+      "size": 13497,
+      "sha256": "29ac2a8b0e133980e87d8752667708f0591404917d52ea06026a5df6992601e5",
+      "gitSha": "7dcb67c90c4c28d19515cd475f7db8ede5b5ce18"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/json-transport/index.d.ts",
+      "size": 2052,
+      "sha256": "e1055e4ad933417b48e5392b5e1c70d4bfb17f3732d7ec696d69c85e1d1949a4",
+      "gitSha": "5adc73afa344c51c014f200b132eaf30b3347da1"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/json-transport/index.js",
+      "size": 2160,
+      "sha256": "3a01981ac58e02b8e22f3c0eb0749ab85ce90938b2228648d443304db99dfc9a",
+      "gitSha": "027c1daf84de205b9061c12ef9d1b69f7cf2ce24"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mail-composer/index.d.ts",
+      "size": 8196,
+      "sha256": "71362eb13407bc8e974e39a6bdae040befc1cd2e9286243c642d43fdd2866928",
+      "gitSha": "c076115d529cd4dc2d68cec05741acfc5c728d9a"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mail-composer/index.js",
+      "size": 23075,
+      "sha256": "7132badc3fb58604734db79e39ee6aca06d724c515de2e9bdbd76d4324b9614d",
+      "gitSha": "bc85f063fb44cece940c1665af55a471bdae35ab"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mailer/index.d.ts",
+      "size": 10458,
+      "sha256": "104382b3bf3686cd84fd2f624c88603d15617e7e8844538168a7231f65e18278",
+      "gitSha": "300d8050372bc28ca576513f5116fb49e3e716a3"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mailer/index.js",
+      "size": 15440,
+      "sha256": "92369c9e0d6c94f291b37ef0c039a159090ef6d152d819c53eb279951efeca58",
+      "gitSha": "74058d64d7f6a4d114f09ab2c7cb0899ea1d5a02"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mailer/mail-message.d.ts",
+      "size": 4093,
+      "sha256": "d035d93b7f56fdbf384f0141510bdb5d2f68a0018bd3d2498e47ced9f17f1148",
+      "gitSha": "4db9dd31e16d62272e1d4d34cc80553c3ecb3016"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mailer/mail-message.js",
+      "size": 14782,
+      "sha256": "009467611a2f6b78c2f2da7398e682508172ce5f01303d072c121aa6a4fa3eea",
+      "gitSha": "9df7734ccdbbba2c0123e6e23fa87830be8562c0"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-funcs/index.d.ts",
+      "size": 6569,
+      "sha256": "bbe3b9c416bbf0044427a1d7e99b84c0c84d279b24200704739a0cf9b5323070",
+      "gitSha": "3c7b2793a2bc245f644b7b346608497c1fe6372c"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-funcs/index.js",
+      "size": 24894,
+      "sha256": "08fd70b04a14a07b9de991f1690dfc9d8e13a46e30c6506bd85d6367a4028e97",
+      "gitSha": "835f3556c2537ea4564222050edcd9edcf6deed3"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-funcs/mime-types.d.ts",
+      "size": 151,
+      "sha256": "0e1d4d8eb8d382535e4dd02a8a1d230f418a94c752eebcc2e4487d8dced83b0f",
+      "gitSha": "389e06df7362cbd91fdfa1dfcad14adf9d3285ff"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-funcs/mime-types.js",
+      "size": 89942,
+      "sha256": "8d657655a29723d357d25a657cf4fdc759003c9351c55280f4a38957e3485eea",
+      "gitSha": "794086ffc2b3ab2fb2945fb9782b13f86e1037bf"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-node/index.d.ts",
+      "size": 12728,
+      "sha256": "21c8d35cfcabfe98abaca1e4dbfc15aecb0d5ae3e4a0c2d039588ffe52af017c",
+      "gitSha": "2030d14d0f208b8c590158397f0ab72daba09819"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-node/index.js",
+      "size": 60876,
+      "sha256": "dff001b2560db53a3180f7fc5e941667cd0c121fdc5d5fc112f2269999b82752",
+      "gitSha": "314a6cc36135f19d5d7067363704a28c1d26984d"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-node/last-newline.d.ts",
+      "size": 145,
+      "sha256": "97f99d766b5a4d535e33341811e2789b8c6b1dfa0ebce0614c9a5d8ae575c334",
+      "gitSha": "301f0c7a3e4254d7f9c9d2ee351bbb8c3aee1d85"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-node/last-newline.js",
+      "size": 671,
+      "sha256": "51def41ae98d82bc95dfb2a899f4d95200b295bbc461f5d78999a9656855dab5",
+      "gitSha": "d5b639a97f01a90bb97a87f109af7484253da8ad"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-node/le-unix.d.ts",
+      "size": 252,
+      "sha256": "f147fbd429b3856f5285848c78f44f0816a942fc4d8945d2c53c698cc7e43e8d",
+      "gitSha": "20df43f73505cbab7ff0e7a0e79bacb5980a1b25"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-node/le-unix.js",
+      "size": 849,
+      "sha256": "4a4e91b9f41993363c78a2fbd453fed6f3d6b9a44985674fbca80c01e4db31d2",
+      "gitSha": "f7612f84d4e5c41021e0f824f63c4ad0b58fe0fd"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-node/le-windows.d.ts",
+      "size": 300,
+      "sha256": "e6e75484ead0f14f87dac779e8db036ac8b41efd4bbf8da02d31b63fb55226a1",
+      "gitSha": "cd2f168e48c1f77f001f3fb1a73d7b0e62b91efa"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/mime-node/le-windows.js",
+      "size": 1184,
+      "sha256": "114717979dc15b15f83534833c431b27868861e1b609d0d6694f8fdaee2d45c9",
+      "gitSha": "b6428238a521ad94215524525faa4ffa43f6fdf5"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/nodemailer.d.ts",
+      "size": 5499,
+      "sha256": "19164d3a55b745f210ba1d33fc68d55b3074611a96c87e73188de1adf7e4e23b",
+      "gitSha": "3dd144271ab521ab974248d454adc9e031458da8"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/nodemailer.js",
+      "size": 6603,
+      "sha256": "80dd57ba17a26d31fae7ba26be5dab3d8d2c70cc37b3f0d4aaacc202529c716a",
+      "gitSha": "e9ff9fd07b3d7de4775e89cb71d818e53d187d55"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/package-info.d.ts",
+      "size": 143,
+      "sha256": "757dd9ae066520b43c8f64fb30ffe0ca9217a3c7fca99cb6ae09b69a12da04e5",
+      "gitSha": "4e7cec12359cc727918938e62abeb2b301bcb47c"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/package-info.js",
+      "size": 192,
+      "sha256": "1b20b3ce1b5f54d24d5cc2ff6994b3f36b2dd56945f53d41eda58d47dd0c2081",
+      "gitSha": "bdb2ae43892184a4741ee18ede9b865287466e2d"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/package.json",
+      "size": 25,
+      "sha256": "c366c8924e786646a7e69185092cddccd3953667e8476f584ebbcc548b632690",
+      "gitSha": "472002573ef7ac89dbe55c0788d68b49ddc61ddc"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/punycode/index.d.ts",
+      "size": 2724,
+      "sha256": "8fb85424b89b8806b1a438601357219963ec33e1fe75a2bb68361346661f9568",
+      "gitSha": "b0d1d719462280a2464893bf9dc45efec8d3d087"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/punycode/index.js",
+      "size": 14943,
+      "sha256": "6532c6f1cbb646087c2fd53bc51daf15e64f15e2dcf1b53f8109cb0c62d66e59",
+      "gitSha": "f5ef7554d10518d6fedab57697c1a078cb87f799"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/qp/index.d.ts",
+      "size": 1054,
+      "sha256": "40be795933b59644e4c402f93ac9e783d0892b340bf50a4cf3eb1ec4ec30a500",
+      "gitSha": "92eb8b9b75c10a48b551f43f6f9519d72a587273"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/qp/index.js",
+      "size": 6372,
+      "sha256": "9d18251bdbbeb34b0621193e2fe5f577b64864490344c3400bf3675609921075",
+      "gitSha": "83d700e8aa8af74994c4668295ec30d0fe704ec0"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/sendmail-transport/index.d.ts",
+      "size": 2538,
+      "sha256": "5912253aab9d30dd1e11086a9b8a42e77ce504e576451b1b848faf094b68d6a1",
+      "gitSha": "e71c02684053c68d97d84f208b64586e983b896e"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/sendmail-transport/index.js",
+      "size": 6782,
+      "sha256": "31bf49ee3b1036f816c440382039c9f0026e0aca8daef39c2fdfdeeb6bdd86be",
+      "gitSha": "a90e505b8130a3513c0988d6ae194cfe2d193c5f"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/ses-transport/index.d.ts",
+      "size": 2749,
+      "sha256": "011176bb2ec61f1bb2523846927e5da2ee674da9b031f06780c6d6ac9847c852",
+      "gitSha": "e3f6358a7b390af37ace209475e59322417b4a53"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/ses-transport/index.js",
+      "size": 8624,
+      "sha256": "dc0bdd68965e9cf7494a3eff5992fc5f825e1d0b0842684f621108fd6a98f150",
+      "gitSha": "fe888f515357ace5e9ebd1e40b7c44a6aba5802a"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/shared/index.d.ts",
+      "size": 8757,
+      "sha256": "29d0cc7869dcf8fe408dd85dd3d5af83a584d397aad1dda500e901c3aed6da31",
+      "gitSha": "e6e5077c3c508e39978cd84f186a3f8abbf30b6e"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/shared/index.js",
+      "size": 22395,
+      "sha256": "2385f9ebea0cd841fd2288b9f4a6a5726ead3a84da6eb4f716df8939c7aabb66",
+      "gitSha": "4039d04210b55e68139fb1d0a95f3d8b4c021f03"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/shared/objects.d.ts",
+      "size": 1175,
+      "sha256": "da93ecb33e0b7e915f43ba741189b83587ed0a4810a141985255acf9c001f9a8",
+      "gitSha": "d763c81b3d2b074516ce8c1ff439f1524bae0970"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/shared/objects.js",
+      "size": 1717,
+      "sha256": "c9b2591c189c9b37c428eb10fd7176639279f8bb2d6835f86acf4436ba6de145",
+      "gitSha": "bce767d4cd4494036b98000a1e6042ccebe60646"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/shared/url.d.ts",
+      "size": 746,
+      "sha256": "e28dee2f44d0af199e4afeba607e02f810db0807ab72f44a72263123657b71aa",
+      "gitSha": "b4a7544a430d40c576b2069a8ae55317b53e4dc5"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/shared/url.js",
+      "size": 10712,
+      "sha256": "94694153a5ff237d4840da7064c2ee875773cfb29b349f5fdeaec3c57efd838a",
+      "gitSha": "8b555943c95923da8004800f896664a37eed7c98"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-connection/data-stream.d.ts",
+      "size": 473,
+      "sha256": "bd257859d8fb6f5acb693ac7b1e31103fbb7a0c22057a300c22b6160eaa3ad3d",
+      "gitSha": "2aa8ff8f0557a2e9b53f0eb1d8a7a62fd2e181cb"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-connection/data-stream.js",
+      "size": 2921,
+      "sha256": "ce7e4b11b24018cf180f8a3fb710f6423eb64b517f915295855e4fd387db53a0",
+      "gitSha": "3da3bc1f47d22e5d8d551792d0180023549e96f2"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-connection/http-proxy-client.d.ts",
+      "size": 1793,
+      "sha256": "adf4d3c1aae34b8ef029c4ed7783c611efe815dbfda5603680b5f91d5875436c",
+      "gitSha": "5483cdc1d8ba7dd58f673971558bfa8d726b6228"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-connection/http-proxy-client.js",
+      "size": 5166,
+      "sha256": "45bc32b7d2e3c493fbe75593d6eae71ab24c71d8c3c9e68e62e4bedaf8b7c424",
+      "gitSha": "cae47eec25d0eecb5eed72fd75249b8095051ef8"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-connection/index.d.ts",
+      "size": 15304,
+      "sha256": "77e00f37aaf16dcbe566a60ad16e2383239287157f0243ea8ba54e292c07d1ee",
+      "gitSha": "d8f1d34d6086713819543e4497145eb8fc7edefd"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-connection/index.js",
+      "size": 71451,
+      "sha256": "7cc2b6de445a3d04b934dde84f2fa10049f30ad0881811c08b231e76874dd7d9",
+      "gitSha": "b7e00cb4408b08a043e74df861e5f3c5eb322e65"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-pool/index.d.ts",
+      "size": 4588,
+      "sha256": "3993bb22474b87debf6664baf9dde955528cfae2305251d058bb29be5769686a",
+      "gitSha": "2e5b488dc01ebcae88b7c15ed4556aab951d9197"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-pool/index.js",
+      "size": 18161,
+      "sha256": "31cbaa016e6071d27db81f0b2b0f44b5cc3f7017300353c3a73755452864b4e5",
+      "gitSha": "798e627a141bff4af104eafed9cab197210fc93f"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-pool/pool-resource.d.ts",
+      "size": 2004,
+      "sha256": "04ae5d7a4bde590da5a0bef4cc10c4a684736bb7a47e6702e8a1dfd86da2872e",
+      "gitSha": "5aa8d608f4a924c7b8618413ad8faa35eecf61bc"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-pool/pool-resource.js",
+      "size": 8503,
+      "sha256": "4441c8761b1d017d789958edadb26a56be5e99642f736d96120f76b3f930fdda",
+      "gitSha": "12ba9c413fe001b2489f6f6778b38bdf94658934"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-transport/index.d.ts",
+      "size": 5968,
+      "sha256": "ab327c3f923b32140fb9c819dcf0e02f75c1c509524557f992e24cadc39621e3",
+      "gitSha": "c3011cedf89185ccdfd6f2443e039b5686ef5fe4"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/smtp-transport/index.js",
+      "size": 13499,
+      "sha256": "8afda8d9d2aa1f8ad78c56b0d65dceed9ae4fd3029b215f6ac7635eecbadc03a",
+      "gitSha": "0cd4e470aba3e6bb30d9e2f43e11e9ac3be2541d"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/stream-transport/index.d.ts",
+      "size": 2388,
+      "sha256": "c26da6ee8e26a447f43f4936ae61db473677dbc34c8338d92ea53431c48d9750",
+      "gitSha": "0f305476f0045f1c5f87b175750ad22ba618a60b"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/stream-transport/index.js",
+      "size": 4065,
+      "sha256": "0b92091a08aa5eb4a6fccbb048c11aed97769e869b5b53fffa51e6cca7518927",
+      "gitSha": "b71e69cc38449f54c021c6b4eb025d8fd714deec"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/well-known/index.d.ts",
+      "size": 1398,
+      "sha256": "9b0ebfade7f6a61c37bb5d70589076f0f19ddc15a0955ce7bf5a4a37ff2f900e",
+      "gitSha": "0ad2180a3da3129aa73d444ab5e35a95bb0df4d5"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/well-known/index.js",
+      "size": 1229,
+      "sha256": "f8650526ad95f67315e60daf3408c0de633667c46b0a3db11d363b87bd94c1d4",
+      "gitSha": "943543fe361fe796a4a1db3baf7c44881ecda8e0"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/well-known/services.d.ts",
+      "size": 137,
+      "sha256": "0ad3629089aa672b73fee1304a33f7ea38581b448a9d5144eae77cfa209eae26",
+      "gitSha": "cba489240eef533afd60ac4489e7dc0993c585fc"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/well-known/services.js",
+      "size": 16830,
+      "sha256": "44f35de46e51444fef4bf93eb386a711c1bb2ad6a80ad1426d525c3fb45f6c72",
+      "gitSha": "85051c51a8e3f275a3b92684bada8fd52a93bac6"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/xoauth2/index.d.ts",
+      "size": 8219,
+      "sha256": "7c0bc3e4e040848400d91753e10a07294f93657d081c04ef87b308b67ff0165c",
+      "gitSha": "b02f26c612c3a321bbe6226d9a6997abfed69677"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/esm/xoauth2/index.js",
+      "size": 15935,
+      "sha256": "81577387538b282e15103b24fb52429d491ba5a92d5ca299cba210334f0dfd89",
+      "gitSha": "27f19901a53dcceb3ff28d482be7fac3f3090353"
+    },
+    {
+      "path": "server/vendor/nodemailer/dist/well-known/services.json",
+      "size": 15490,
+      "sha256": "7958c32140aa600130d09736154ead7fe2affdf7cc3025c52dc06b6457d2e553",
+      "gitSha": "3bf69b3e963c0e84e4135f3069e97d6c2d245236"
+    },
+    {
+      "path": "server/vendor/nodemailer/LICENSE",
+      "size": 935,
+      "sha256": "4f814dcacd2da618d62829ea1f6238701cf421f18a6b36c91c5d8212245e2c78",
+      "gitSha": "fdfc9676bf9f4363b1292847d61f94a17a47618e"
+    },
+    {
+      "path": "server/vendor/nodemailer/package.json",
+      "size": 6125,
+      "sha256": "a79eec5b574734e6910738d7d9de345a2951e7bfac76359e4acb52e13dbee25d",
+      "gitSha": "3524e2c9236aab7f1da66919469db74635b9646c"
+    },
+    {
+      "path": "server/vendor/nodemailer/README.md",
+      "size": 6344,
+      "sha256": "75de98e12460fb956b8aaea464277094028a27d26ebf14655835d1f50c215e39",
+      "gitSha": "b81943879d3e40fd349ebca7c540aea2d40642af"
+    },
+    {
+      "path": "server/vendor/nodemailer/SECURITY.md",
+      "size": 2731,
+      "sha256": "74c574b1858b521f270e98f71c395eb68a9329c83915c9b7d24b0ad37114a28b",
+      "gitSha": "66063909df045baff8f2dbd9c0ef7631c61e7396"
+    },
+    {
+      "path": "server/vendor/nodemailer/SECURITY.txt",
+      "size": 1044,
+      "sha256": "2a1f66431b09276f3c88d7b3724fba181e94cbd6cd0073b7a69d7e908572e8d5",
+      "gitSha": "27a54d3423b4b58a7016b6bb587359f1866da871"
+    }
+  ]
+}

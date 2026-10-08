@@ -1,0 +1,2531 @@
+[
+  {
+    "id": "exemplo-01-ug01",
+    "plant": "CGH Exemplo 01",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Excitação",
+        "unit": "Vcc",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Excitação",
+        "unit": "Acc",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_la",
+        "label": "Mancal LA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_lna",
+        "label": "Mancal LNA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_a",
+        "label": "Mancal Turb. A",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_b",
+        "label": "Mancal Turb. B",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_thrust_1",
+        "label": "Manc. Turb. Esc. 1",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_thrust_2",
+        "label": "Manc. Turb. Esc. 2",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Excitatriz",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-02-ug01",
+    "plant": "CGH Exemplo 02",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "dist_la",
+        "label": "Dist. LA",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "dist_na",
+        "label": "Dist. NA",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine",
+        "label": "Manc. Turb.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_la",
+        "label": "Manc. L.A.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_na",
+        "label": "Manc. N.A",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Temp. Excit.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "gland_na",
+        "label": "Gaxet. N.A.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "gland_la",
+        "label": "Gaxt. L.A.",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-03-ug01",
+    "plant": "CGH Exemplo 03",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "KW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "KVAr",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "KVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "voltage_ab",
+        "label": "Tensão AB",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_bv",
+        "label": "Tensão BV",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_va",
+        "label": "Tensão VA",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_a",
+        "label": "Corrente Fase A",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_b",
+        "label": "Corrente Fase B",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_v",
+        "label": "Corrente Fase V",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Excitação",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Exc.",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "temp_a",
+        "label": "Temp. Fase A",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "temp_b",
+        "label": "Temp. Fase B",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "temp_v",
+        "label": "Temp. Fase V",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "bearing_thrust",
+        "label": "Manc. Escora",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "bearing_guide_bush",
+        "label": "Mancal Guia Casquilho",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "bearing_combined_bush",
+        "label": "Mancal Comb. Casquilho",
+        "unit": "°C",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-03-ug02",
+    "plant": "CGH Exemplo 03",
+    "unit": "UG02",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "KW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "KVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "KVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "voltage_ab",
+        "label": "Tensão AB",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_bv",
+        "label": "Tensão BV",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_va",
+        "label": "Tensão VA",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_a",
+        "label": "Corrente Fase A",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_b",
+        "label": "Corrente Fase B",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_v",
+        "label": "Corrente Fase V",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Excitação",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Exc.",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "temp_a",
+        "label": "Temp. Fase A",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "temp_b",
+        "label": "Temp. Fase B",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "temp_v",
+        "label": "Temp. Fase V",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "bearing_thrust",
+        "label": "Manc. Escora",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "bearing_guide_bush",
+        "label": "Mancal Guia Casquilho",
+        "unit": "°C",
+        "type": "number"
+      },
+      {
+        "key": "bearing_combined_bush",
+        "label": "Mancal Comb. Casquilho",
+        "unit": "°C",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-04-ug01",
+    "plant": "CGH Exemplo 04",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "dist_la",
+        "label": "Dist. LA",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_la",
+        "label": "Manc. L.A.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_na",
+        "label": "Manc. N.A",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Temp. Excit.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "gland",
+        "label": "Gaxetero",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-05-ug01",
+    "plant": "CGH Exemplo 05",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_radial_guide",
+        "label": "Manc. Radial Guia",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_axial_combined",
+        "label": "Manc. Axial E. Comb.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_radial_combined",
+        "label": "Manc. Radial Comb.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Temp. Excit.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Exc.",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Exc.",
+        "unit": "A",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-05-ug02",
+    "plant": "CGH Exemplo 05",
+    "unit": "UG02",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "generator_temp_lna",
+        "label": "Temp. LNA Ger",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "generator_temp_la",
+        "label": "Temp. Ger LA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_thrust",
+        "label": "Manc. Escora",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Temp. Excit.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Exc.",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Exc.",
+        "unit": "A",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-06-ug01",
+    "plant": "CGH Exemplo 06",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "dist_la",
+        "label": "Dist. LA",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Exc.",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corr. Exc.",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_thrust",
+        "label": "Manc. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_counter_thrust",
+        "label": "Manc. C. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_la",
+        "label": "Mancal Turb. LA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Temp. Excit.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_generator_lna",
+        "label": "Manc. Ger. LNA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_generator_la",
+        "label": "Manc. Ger. LA",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-06-ug02",
+    "plant": "CGH Exemplo 06",
+    "unit": "UG02",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "dist_la",
+        "label": "Dist. LA",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Exc.",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corr. Exc.",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_thrust",
+        "label": "Manc. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_counter_thrust",
+        "label": "Manc. C. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_la",
+        "label": "Manc. Turb. LA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Temp. Excit.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_generator_la",
+        "label": "Manc. Ger. LA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_generator_lna",
+        "label": "Manc. Ger. LNA",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-07-ug01",
+    "plant": "CGH Exemplo 07",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "KVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Excitação",
+        "unit": "Vcc",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Excitação",
+        "unit": "Acc",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "shaft_seal",
+        "label": "Vedação de eixo",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_thrust",
+        "label": "Manc. Escora",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_counter_thrust",
+        "label": "Manc. contra Escora",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_lna",
+        "label": "Mancal LNA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Excitatriz",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-07-ug02",
+    "plant": "CGH Exemplo 07",
+    "unit": "UG02",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Excitação",
+        "unit": "Vcc",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Excitação",
+        "unit": "Acc",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "shaft_seal",
+        "label": "Vedação de eixo",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_thrust",
+        "label": "Manc. Escora",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_counter_thrust",
+        "label": "Manc. contra Escora",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_lna",
+        "label": "Mancal LNA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Excitatriz",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-08-ug01",
+    "plant": "CGH Exemplo 08",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "dist_la",
+        "label": "Dist. LA",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "level",
+        "label": "Nível",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "voltage_12",
+        "label": "Tensão 12",
+        "unit": "kV",
+        "type": "number"
+      },
+      {
+        "key": "voltage_23",
+        "label": "Tensão 23",
+        "unit": "kV",
+        "type": "number"
+      },
+      {
+        "key": "voltage_31",
+        "label": "Tensão 31",
+        "unit": "kV",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "bearing_front",
+        "label": "Manc. Diant.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_rear",
+        "label": "Manc. Tras.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_thrust",
+        "label": "Manc. Escora",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_counter_thrust",
+        "label": "Manc. C. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "rectifier_bridge_temp",
+        "label": "Temp. Ponte Ret.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "crowbar_resistor_temp",
+        "label": "Temp. Res. Crowbar",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "shaft_seal_temp",
+        "label": "Temp. Ved. Eixo",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-08-ug02",
+    "plant": "CGH Exemplo 08",
+    "unit": "UG02",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "dist_la",
+        "label": "Dist. LA",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "level",
+        "label": "Nível",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "voltage_12",
+        "label": "Tensão 12",
+        "unit": "kV",
+        "type": "number"
+      },
+      {
+        "key": "voltage_23",
+        "label": "Tensão 23",
+        "unit": "kV",
+        "type": "number"
+      },
+      {
+        "key": "voltage_31",
+        "label": "Tensão 31",
+        "unit": "kV",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "bearing_front",
+        "label": "Manc. Diant.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_rear",
+        "label": "Manc. Tras.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_thrust",
+        "label": "Manc. Escora",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_counter_thrust",
+        "label": "Manc. C. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "rectifier_bridge_temp",
+        "label": "Temp. Ponte Ret.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "crowbar_resistor_temp",
+        "label": "Temp. Res. Crowbar",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "shaft_seal_temp",
+        "label": "Temp. Ved. Eixo",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-09-ug01",
+    "plant": "CGH Exemplo 09",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "level_before_grate",
+        "label": "Cota Nível A. Grade",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "level_after_grate",
+        "label": "Cota Nível D. Grade",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Excitação",
+        "unit": "Vcc",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Excitação",
+        "unit": "Acc",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_thrust",
+        "label": "Manc. Turb. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_counter_thrust",
+        "label": "Manc. Turb. C. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_lna",
+        "label": "Manc. TBN. LNA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "shaft_seal",
+        "label": "Vedação de Eixo",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "uhrv",
+        "label": "UHRV",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Excitatriz",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "uhlm",
+        "label": "UHLM",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-09-ug02",
+    "plant": "CGH Exemplo 09",
+    "unit": "UG02",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "level_before_grate",
+        "label": "Cota Nível A. Grade",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "level_after_grate",
+        "label": "Cota Nível D. Grade",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Excitação",
+        "unit": "Vcc",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Excitação",
+        "unit": "Acc",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_thrust",
+        "label": "Manc. Turb. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_counter_thrust",
+        "label": "Manc. Turb. C. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_lna",
+        "label": "Manc. TBN. LNA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "shaft_seal",
+        "label": "Vedação de Eixo",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "uhrv",
+        "label": "UHRV",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Excitatriz",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "uhlm",
+        "label": "UHLM",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-10-ug01",
+    "plant": "CGH Exemplo 10",
+    "unit": "UG01",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "level_before_grate",
+        "label": "Cota Nível A. Grade",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "level_after_grate",
+        "label": "Cota Nível D. Grade",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Excitação",
+        "unit": "Vcc",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Excitação",
+        "unit": "Acc",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_thrust",
+        "label": "Manc. Turb. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_counter_thrust",
+        "label": "Manc. Turb. C. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_lna",
+        "label": "Manc. TBN. LNA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "shaft_seal",
+        "label": "Vedação de Eixo",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "uhrv",
+        "label": "UHRV",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Excitatriz",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "uhlm",
+        "label": "UHLM",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  },
+  {
+    "id": "exemplo-10-ug02",
+    "plant": "CGH Exemplo 10",
+    "unit": "UG02",
+    "revision": 1,
+    "fields": [
+      {
+        "key": "temp_uhrv",
+        "label": "Temp. UHRV",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "temp_uhlm",
+        "label": "Temp. UHLM",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "key": "active_power",
+        "label": "P. Ativa",
+        "unit": "kW",
+        "type": "number"
+      },
+      {
+        "key": "reactive_power",
+        "label": "P. Reativa",
+        "unit": "kVar",
+        "type": "number"
+      },
+      {
+        "key": "apparent_power",
+        "label": "P. Aparente",
+        "unit": "kVA",
+        "type": "number"
+      },
+      {
+        "key": "distributor",
+        "label": "Dist",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "requested_power",
+        "label": "P. Ativa Solic.",
+        "unit": "%",
+        "type": "number"
+      },
+      {
+        "key": "level_before_grate",
+        "label": "Cota Nível A. Grade",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "level_after_grate",
+        "label": "Cota Nível D. Grade",
+        "unit": "MCA",
+        "type": "number"
+      },
+      {
+        "key": "voltage_r",
+        "label": "Tensão R",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_s",
+        "label": "Tensão S",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "voltage_t",
+        "label": "Tensão T",
+        "unit": "V",
+        "type": "number"
+      },
+      {
+        "key": "current_r",
+        "label": "Corrente R",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_s",
+        "label": "Corrente S",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "current_t",
+        "label": "Corrente T",
+        "unit": "A",
+        "type": "number"
+      },
+      {
+        "key": "excitation_voltage",
+        "label": "Tensão Excitação",
+        "unit": "Vcc",
+        "type": "number"
+      },
+      {
+        "key": "excitation_current",
+        "label": "Corrente Excitação",
+        "unit": "Acc",
+        "type": "number"
+      },
+      {
+        "key": "temp_r",
+        "label": "Temp. Fase R",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_s",
+        "label": "Temp. Fase S",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "temp_t",
+        "label": "Temp. Fase T",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_thrust",
+        "label": "Manc. Turb. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_counter_thrust",
+        "label": "Manc. Turb. C. Esc.",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "bearing_turbine_lna",
+        "label": "Manc. TBN. LNA",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "shaft_seal",
+        "label": "Vedação de Eixo",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "uhrv",
+        "label": "UHRV",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "exciter_temp",
+        "label": "Excitatriz",
+        "unit": "ºC",
+        "type": "number"
+      },
+      {
+        "key": "uhlm",
+        "label": "UHLM",
+        "unit": "ºC",
+        "type": "number"
+      }
+    ],
+    "source": "example"
+  }
+]
